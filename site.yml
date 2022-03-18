@@ -8,11 +8,12 @@ site:
 
 content:
   sources:
-    - url: ./
+    - url: git@github.com:redhat-scholars/redhat-scholars.github.io.git
       start_path: documentation
 
 asciidoc:
   attributes:
+    experimental: true
     release-version: master
     page-pagination: true
   extensions:
