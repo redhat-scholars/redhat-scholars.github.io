@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Kubernetes :: Deep Dive Menu</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/deepdive-menu/01-kubernetes.html">
+    <link rel="prev" href="index.html">
+    <link rel="next" href="02-quarkus.html">
+    <meta name="generator" content="Antora 3.0.0">
+    <link rel="stylesheet" href="../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://developers.redhat.com" target="_blank"><img src="../_/img/NewRHDFullLogo_4-color_white-wordmark.png" height="40px" alt="Red Hat Developer Program"></a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="https://redhat-scholars.github.io">Deep Dive Menu</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://developers.redhat.com/ebooks/" target="_blank">Books</a>
+        <a class="navbar-item" href="https://developers.redhat.com/cheatsheets/" target="_blank">Cheat Sheets</a>
+        <a class="navbar-item" href="https://developers.redhat.com/events/" target="_blank">Upcoming Events</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">More Tutorials</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://redhat-developer-demos.github.io/kubernetes-tutorial/" target="_blank">Kubernetes</a>
+            <a class="navbar-item" href="https://redhat-developer-demos.github.io/istio-tutorial/" target="_blank">Istio</a>
+            <a class="navbar-item" href="https://redhat-developer-demos.github.io/quarkus-tutorial/" target="_blank">Quarkus</a>
+            <a class="navbar-item" href="https://redhat-developer-demos.github.io/knative-tutorial/" target="_blank">Knative</a>
+            <a class="navbar-item" href="https://redhat-developer-demos.github.io/tekton-tutorial/" target="_blank">Tekton</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="deepdive-menu" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html"></a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="01-kubernetes.html">Kubernetes</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#one">Kubernetes I</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#two">Kubernetes II</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="#three">Kubernetes III</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="02-quarkus.html">Quarkus</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="02-quarkus.html#one">Quarkus I</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="02-quarkus.html#two">Quarkus II</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Deep Dive Menu</a></li>
+    <li><a href="01-kubernetes.html">Kubernetes</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/01-kubernetes.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<article class="doc">
+<h1 class="page">Kubernetes</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Learn the basics of <a href="https://kubernetes.io" target="_blank" rel="noopener">Kubernetes</a> as well as the more advanced principles in three modules of 1 hour each.</p>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="_images/kubelogo.png" alt="Kube logo" width="100">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/kube-tutorial">dn.dev/kube-tutorial</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="one"><a class="anchor" href="#one"></a>Kubernetes I</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top"><strong>Duration</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Audience</strong></th>
+<th class="tableblock halign-left valign-top"><strong>Level</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Don’t be the last one to board the Kubernetes train! Even if you’re not deploying apps to Kubernetes now, you might be soon. So hurry up, take this deep dive with us, and learn from recognized CodeCasters about the fundamentals of Kubernetes.
+Be prepared to interact with other attendees and the instructor on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/kube1.png" alt="Kubernetes I">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Why use Kubernetes?</p>
+</li>
+<li>
+<p>What Kubernetes is</p>
+</li>
+<li>
+<p>Kubernetes installation</p>
+</li>
+<li>
+<p>Kubernetes CLI with kubectl</p>
+</li>
+<li>
+<p>Pod, ReplicaSet, and Deployment</p>
+</li>
+<li>
+<p>Logs and stern</p>
+</li>
+<li>
+<p>Debugging with kubectl exec</p>
+</li>
+<li>
+<p>Applications as a Service</p>
+</li>
+<li>
+<p>Rolling update delivery</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/kubemaster1">dn.dev/kubemaster1</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="two"><a class="anchor" href="#two"></a>Kubernetes II</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>You learned the Kubernetes basics, so what’s next? Deploying successfully, of course! Limit the resources you app can consume, perform smooth rolling updates with proper health and readiness probes, and master the configuration of your apps.
+Be prepared to interact with other attendees and your CodeCaster on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/kube2.png" alt="Kubernetes II">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Building images</p>
+</li>
+<li>
+<p>Resource Limits</p>
+</li>
+<li>
+<p>Rolling update delivery</p>
+</li>
+<li>
+<p>Liveness and readiness probes</p>
+</li>
+<li>
+<p>Environment variables and ConfigMaps</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/kubemaster2">dn.dev/kubemaster2</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="three"><a class="anchor" href="#three"></a>Kubernetes III</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Advanced</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Application deployed to Kubernetes! Now that we deployed it, what else do we need to be successful in production? Let&#8217;s look at how features like volumes, secrets, and operators can help us deploy stateful applications like databases into our Kubernetes clusters.
+Be prepared to interact with other attendees and your CodeCaster on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/kube2.png" alt="Kubernetes III">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Secrets</p>
+</li>
+<li>
+<p>Operators</p>
+</li>
+<li>
+<p>Volumes</p>
+</li>
+<li>
+<p>Taints</p>
+</li>
+<li>
+<p>Jobs</p>
+</li>
+<li>
+<p>DaemonSet</p>
+</li>
+<li>
+<p>StatefulSet</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/kubemaster3">dn.dev/kubemaster3</a></p>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="index.html">Deep Dive Menu</a></span>
+  <span class="next"><a href="02-quarkus.html">Quarkus</a></span>
+</nav>
+</article>
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <a class="rhd-logo" href="https://developers.redhat.com" target="_blank"></div>
+</footer>
+<script src="../_/js/vendor/clipboard.js"></script>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
