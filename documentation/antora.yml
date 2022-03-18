@@ -1,0 +1,7 @@
+name: deepdive-menu
+title: Deep Dive Menu
+version: master
+nav:
+  - modules/ROOT/nav.adoc
+
+start_page: ROOT:index.adoc

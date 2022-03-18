@@ -1,0 +1,24 @@
+= Deep Dive Menu
+:page-layout: home
+:!sectids:
+
+[.text-center.strong]
+== Cloud Native workshops and tutorials
+
+* 1-hour sessions on developer technologies delivered by Red Hat Developer Advocates
+* Gated content that is tracked and tied to OKRs
+* Available on YouTube post-event to registrants only
+* link:https://developers.redhat.com/devnation/upcoming[Public schedule,window=_blank]
+
+
+[.tiles.browse]
+== Browse modules
+
+[.tile]
+.xref:01-setup.adoc[Get Started]
+* xref:01-setup.adoc#minikube[Minikube]
+
+[.tile]
+.xref:02-deploy.adoc[Deploying]
+* xref:02-deploy.adoc#package[Package the Application]
+* xref:02-deploy.adoc#deploy[Deploy the Application]

@@ -1,0 +1,104 @@
+= Kubernetes
+include::_attributes.adoc[]
+
+Learn the basics of link:https://kubernetes.io[Kubernetes,window=_blank] as well as the more advanced principles in three modules of 1 hour each.
+
+image::kubelogo.png[Kube logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/kube-tutorial[dn.dev/kube-tutorial]
+
+
+[#one]
+== Kubernetes I
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+
+|1 hour
+|For developers and hands-on architects
+|Beginner
+
+|===
+
+
+Don’t be the last one to board the Kubernetes train! Even if you’re not deploying apps to Kubernetes now, you might be soon. So hurry up, take this deep dive with us, and learn from recognized CodeCasters about the fundamentals of Kubernetes.
+Be prepared to interact with other attendees and the instructor on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.
+
+
+image::kube1.png["Kubernetes I"]
+
+
+What you will learn:
+
+* Why use Kubernetes?
+* What Kubernetes is
+* Kubernetes installation
+* Kubernetes CLI with kubectl
+* Pod, ReplicaSet, and Deployment
+* Logs and stern
+* Debugging with kubectl exec
+* Applications as a Service
+* Rolling update delivery
+
+*Slides*: link:https://dn.dev/kubemaster1[dn.dev/kubemaster1]
+
+
+[#two]
+== Kubernetes II
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For developers and hands-on architects
+|Intermediate
+|===
+
+You learned the Kubernetes basics, so what’s next? Deploying successfully, of course! Limit the resources you app can consume, perform smooth rolling updates with proper health and readiness probes, and master the configuration of your apps.
+Be prepared to interact with other attendees and your CodeCaster on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.
+
+
+image::kube2.png["Kubernetes II"]
+
+
+What you will learn:
+
+* Building images
+* Resource Limits
+* Rolling update delivery
+* Liveness and readiness probes
+* Environment variables and ConfigMaps
+
+*Slides*: link:https://dn.dev/kubemaster2[dn.dev/kubemaster2]
+
+
+[#three]
+== Kubernetes III
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For developers and hands-on architects
+|Advanced
+|===
+
+Application deployed to Kubernetes! Now that we deployed it, what else do we need to be successful in production? Let's look at how features like volumes, secrets, and operators can help us deploy stateful applications like databases into our Kubernetes clusters.
+Be prepared to interact with other attendees and your CodeCaster on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.
+
+
+image::kube2.png["Kubernetes III"]
+
+
+What you will learn:
+
+* Secrets
+* Operators
+* Volumes
+* Taints
+* Jobs
+* DaemonSet
+* StatefulSet
+
+*Slides*: link:https://dn.dev/kubemaster3[dn.dev/kubemaster3]

@@ -1,0 +1,8 @@
+* xref:01-kubernetes.adoc[Kubernetes]
+** xref:01-kubernetes.adoc#one[Kubernetes I]
+** xref:01-kubernetes.adoc#two[Kubernetes II]
+** xref:01-kubernetes.adoc#three[Kubernetes III]
+
+* xref:02-quarkus.adoc[Quarkus]
+** xref:02-quarkus.adoc#one[Quarkus I]
+** xref:02-quarkus.adoc#two[Quarkus II]

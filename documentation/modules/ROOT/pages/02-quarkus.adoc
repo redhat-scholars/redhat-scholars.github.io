@@ -1,0 +1,62 @@
+= Quarkus
+include::_attributes.adoc[]
+
+Learn the basics of link:https://quarkus.io[Quarkus,window=_blank] as well as the more advanced principles in two modules of 1 hour each. +
+ +
+
+image::quarkuslogo.png[Quarkus logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/quarkus-tutorial[dn.dev/quarkus-tutorial]
+
+*Slides*: link:https://dn.dev/quarkusmaster[dn.dev/quarkus]
+
+
+[#one]
+== Quarkus I
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Spring, Java EE, and Enterprise Java developers
+|Beginner
+|===
+
+
+Is your Java app consuming the server’s whole memory and taking minutes to boot? And then, even more time to redeploy? Get rid of your 25-year-old Java jokes and learn Quarkus, the supersonic, subatomic Java.
+Join this deep dive session to learn how Java apps can have small memory footprints, boot in milliseconds, and help you have instantaneous save/refresh coding sessions. Interact with our CodeCasters and other attendees while learning the superpowers that Quarkus brings to next-generation apps. The world has changed, and Java changed with Quarkus, too. Upgrade your skills with us! +
+ +
+
+
+image::quarkus1.png["Quarkus I"]
+
+What you will learn:
+
+* Quarkus setup
+* CRUD and RDBMS
+* JVM and native deployment
+* Custom configuration
+* Quarkus deployment to Kubernetes/OpenShift
+* Spring compatibility extensions
+
+
+[#two]
+== Quarkus II
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For developers and hands-on architects
+|Intermediate
+|===
+
+
+
+image::quarkus1.png["Quarkus II"]
+
+
+What you will learn:
+
+
+
