@@ -12,13 +12,15 @@
 
 
 [.tiles.browse]
-== Browse modules
+== Browse tutorials
 
 [.tile]
-.xref:01-setup.adoc[Get Started]
-* xref:01-setup.adoc#minikube[Minikube]
+.xref:01-kubernetes.adoc[Kubernetes]
+* xref:01-kubernetes.adoc[Kubernetes]
+* xref:01-kubernetes.adoc#two[Kubernetes II]
+* xref:01-kubernetes.adoc#three[Kubernetes III]
 
 [.tile]
-.xref:02-deploy.adoc[Deploying]
-* xref:02-deploy.adoc#package[Package the Application]
-* xref:02-deploy.adoc#deploy[Deploy the Application]
+.xref:02-quarkus.adoc[Quarkus]
+* xref:02-quarkus.adoc#one[Quarkus I]
+* xref:02-quarkus.adoc#one[Quarkus I]
