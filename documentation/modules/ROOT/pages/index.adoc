@@ -38,7 +38,7 @@
 
 [.tile]
 .xref:05-knative.adoc[Knative]
-* xref:04-knative.adoc[Knative]
+* xref:05-knative.adoc[Knative]
 
 [.tile]
 .xref:06-tekton.adoc[Tekton]
