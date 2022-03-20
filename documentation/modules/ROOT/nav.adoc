@@ -26,3 +26,5 @@
 * xref:09-helm.adoc[Helm]
 
 * xref:10-springboot.adoc[Spring Boot on Kubernetes]
+
+* xref:11-openshift.adoc[OpenShift for Developers]

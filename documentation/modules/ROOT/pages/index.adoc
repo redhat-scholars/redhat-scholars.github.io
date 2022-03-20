@@ -60,3 +60,7 @@
 [.tile]
 .xref:10-springboot.adoc[Spring Boot on Kubernetes]
 * xref:10-springboot.adoc[Spring Boot on Kubernetes]
+
+[.tile]
+.xref:11-openshift.adoc[OpenShift for Developers]
+* xref:11-openshift.adoc[OpenShift for Developers]
