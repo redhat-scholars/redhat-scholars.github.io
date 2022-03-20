@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Knative :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/05-knative.html">
-    <link rel="prev" href="04-kafka.html">
-    <link rel="next" href="06-tekton.html">
+    <title>Spring Boot :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/10-springboot.html">
+    <link rel="prev" href="09-helm.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -87,7 +86,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="04-kafka.html">Kafka</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="05-knative.html">Knative</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -111,7 +110,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="09-helm.html">Helm</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="10-springboot.html">Spring Boot on Kubernetes</a>
   </li>
 </ul>
@@ -129,35 +128,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="05-knative.html">Knative</a></li>
+    <li><a href="10-springboot.html">Spring Boot on Kubernetes</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/05-knative.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/10-springboot.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Knative</h1>
+<h1 class="page">Spring Boot</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://knative.dev" target="_blank" rel="noopener">Knative</a> as well as the more advanced principles in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://spring.io/projects/spring-boot" target="_blank" rel="noopener">Spring Boot</a> on Kubernetes as well as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/knativelogo.png" alt="knative logo" width="100">
+<img src="_images/springbootlogo.png" alt="springboot logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/knative-tutorial">dn.dev/knative-tutorial</a></p>
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/springkube-tutorial" target="_blank" rel="noopener">dn.dev/springkube-tutorial</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/knativemaster">dn.dev/knative</a></p>
+<p><strong>Slides</strong>: <a href="https://dn.dev/springkubedeepdive" target="_blank" rel="noopener">dn.dev/springkubedeepdive</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>knative</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Spring Boot on Kubernetes</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -173,19 +172,18 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For Kubernetes-experienced developers</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Kubernetes-native serverless with Knative grants you the “magical” ability to scale to zero if your application component is underutilized. Perhaps more importantly, the skills and code you craft with Knative and Kubernetes are portable to all of the big cloud providers.
-In this session, we will show you how to get started and how to keep rocking with the interesting capabilities of Knative Serving and Knative Eventing.<br>
+<p>Are you struggling to deploy and run your Spring Boot applications on Kubernetes? Then join us on this informative and helpful Deep Dive. We can all agree that Spring Boot is great, and you&#8217;ll learn how to make the best of it when running on Kubernetes: from source code to container, to pod, to production <br>
 <br></p>
 </div>
-<div class="imageblock">
+<div class="imageblock unresolved">
 <div class="content">
-<img src="_images/knative1.png" alt="knative">
+<img src="springboot1.png" alt="springboot">
 </div>
 </div>
 <div class="paragraph">
@@ -194,33 +192,26 @@ In this session, we will show you how to get started and how to keep rocking wit
 <div class="ulist">
 <ul>
 <li>
-<p>Knative installation and setup</p>
+<p>The fundamentals of springboot charts</p>
 </li>
 <li>
-<p>Your first Knative Serverless service</p>
+<p>How to install, upgrade and uninstall springboot charts in Kubernetes</p>
 </li>
 <li>
-<p>Traffic distribution with Blue/Green</p>
+<p>Customizing, replicating and syncing applications</p>
 </li>
 <li>
-<p>Traffic distribution with Canary</p>
+<p>Practical springboot chart per microservice approach</p>
 </li>
 <li>
-<p>Auto-scaling behavior modification</p>
-</li>
-<li>
-<p>Event sources and sinks</p>
-</li>
-<li>
-<p>Apache Kafka events</p>
+<p>Practical leader chart approach with springboot</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="04-kafka.html">Kafka</a></span>
-  <span class="next"><a href="06-tekton.html">Tekton</a></span>
+  <span class="prev"><a href="09-helm.html">Helm</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
