@@ -1,0 +1,46 @@
+= Helm
+include::_attributes.adoc[]
+
+Learn the basics of link:https://helm.sh/[Helm,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::helmlogo.png[helm logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/helm-tutorial[dn.dev/helm-tutorial,window=_blank]
+
+*Slides*: link:https://dn.dev/helmdeepdive[dn.dev/helm,window=_blank]
+
+
+[#one]
+== Helm
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers that want to streamline operations with Kubernetes resources
+|Beginner
+|===
+
+
+Deploying your application in Kubernetes can very quickly become a blend of YAML files containing many dependencies, configuration variables, and general confusion. Helm mitigates these concerns by bundling parameterizable YAML resources so that you no longer have to decipher which of the YAML files need to be changed and instead can focus on one application at a time. Helm makes it easy to start using Kubernetes with real applications. Helm Charts are useful for addressing the installation complexities and simplifying upgrades of stateless applications like web apps.  +
+ +
+
+
+image::helm1.png["Helm"]
+
+What you will learn:
+
+* The fundamentals of Helm charts
+* How to install, upgrade and uninstall Helm charts in Kubernetes
+* Customizing, replicating and syncing applications
+* Practical Helm chart per microservice approach
+* Practical leader chart approach with Helm
+
+
+
+
+
+
+
+

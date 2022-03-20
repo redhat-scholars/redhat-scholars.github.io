@@ -1,0 +1,72 @@
+= Kubernetes Operators
+include::_attributes.adoc[]
+
+Learn the basics of link:https://kubernetes.io/docs/concepts/extend-kubernetes/operator/[Kubernetes Operators,window=_blank]  and link:https://operatorframework.io/[Operator Framework,window=_blank] as well as the more advanced principles in two modules of 1 hour each. +
+ +
+
+image::operatorslogo.png[operators logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/operators-tutorial[dn.dev/operators-tutorial]
+
+*Slides*: link:https://dn.dev/operatorsmaster[dn.dev/operators]
+
+
+[#one]
+== Kubernetes Operators I
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Kubernetes application developers
+|Intermediate
+|===
+
+
+Deploying simple applications to Kubernetes is easy. Deploying applications that consist of multiple microservices with complex interactions and configurations is not. Keeping those applications running is an entirely different story all together.
+This deep dive session introduces the concept of Kubernetes Operators and how they bring domain-specific knowledge about installing and maintaining your application into the cluster. This course will use the Operator SDK to rapidly build and test operators that leverage existing technologies such as Ansible and Helm. +
+ +
+
+
+image::operators1.png["Kubernetes Operators I"]
+
+What you will learn:
+
+* What is meant by the term “Kubernetes Operator”
+* Background information on Kubernetes Custom Resource Definitions (CRDs)
+* How to deploy an existing operator and use it to install an application
+* How to build an operator from an existing Helm chart
+* How to build an operator from an existing Ansible playbook
+
+
+
+[#two]
+== Kubernetes Operators II
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For developers and hands-on architects
+|Intermediate
+|===
+
+This deep dive session builds on the fundamentals introduced in part 1 to build more advanced operators. Using the Operator SDK, an operator will be built from the ground up in Go, including fleshing out its custom resource definitions and RBAC permissions. +
+ +
+
+image::operators2.png["operators II"]
+
+
+What you will learn:
+
+* Background information on how operators tie into Kubernetes
+* How to use the Operator SDK to generate an operator scaffold project
+* Techniques and best practices on implementing operators in Go
+* How custom resource definitions can define their own validation schema
+* How the Operator SDK facilitates the developer inner loop of rapid testing of code changes
+* How to write your Operator in Java with Quarkus
+
+
+
+
+

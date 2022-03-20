@@ -1,3 +1,5 @@
+* xref:00-containers.adoc[Containers]
+
 * xref:01-kubernetes.adoc[Kubernetes]
 ** xref:01-kubernetes.adoc#one[Kubernetes I]
 ** xref:01-kubernetes.adoc#two[Kubernetes II]
@@ -16,3 +18,11 @@
 * xref:06-tekton.adoc[Tekton]
 
 * xref:07-argocd.adoc[Argo CD]
+
+* xref:08-operators.adoc[Kubernetes Operators]
+** xref:08-operators.adoc#one[Kubernetes Operators I]
+** xref:08-operators.adoc#two[Kubernetes Operators II]
+
+* xref:09-helm.adoc[Helm]
+
+* xref:10-springboot.adoc[Spring Boot on Kubernetes]

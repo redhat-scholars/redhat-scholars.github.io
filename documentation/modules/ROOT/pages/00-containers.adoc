@@ -1,0 +1,49 @@
+= Containers
+include::_attributes.adoc[]
+
+Learn the basics of link:https://Containers.io[Containers,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::containerslogo.png[Containers logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/containers-tutorial[dn.dev/containers-tutorial,window=_blank]
+
+*Slides*: link:https://dn.dev/containersmaster[dn.dev/containers,window=_blank]
+
+
+[#one]
+== Containers
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers and Linux administrators
+|Beginner
+|===
+
+
+Imagine you’re developing an application. You do your work on a laptop and your environment has a specific configuration. Other developers may have slightly different configurations. The application you’re developing relies on that configuration and is dependent on specific libraries, dependencies, and files. Meanwhile, your business has development and production environments that are standardized with their own configurations and their own sets of supporting files. You want to emulate those environments as much as possible locally, but without all the overhead of recreating the server environments. So, how do you make your app work across these environments, pass quality assurance, and get your app deployed without massive headaches, rewriting, and break-fixing? The answer: containers. +
+ +
+
+
+image::containers1.png["Containers"]
+
+What you will learn:
+
+* Containers vs Images
+* Running with Red Hat Universal Base Image
+* Installing software into a working container
+* Positioning files into a working container
+* Committing your container image
+* Creating a container and running in interactive command
+* Creating a detached container with a mapped port
+* Attaching to a detached container
+* Stopping a container
+* Mapping some host storage to your container
+* Managing images (pushing and pulling) and containers
+
+
+
+
+

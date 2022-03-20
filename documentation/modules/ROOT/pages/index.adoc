@@ -5,25 +5,28 @@
 [.text-center.strong]
 == Cloud Native workshops and tutorials
 
-* 1-hour sessions on developer technologies delivered by Red Hat Developer Advocates
-* Gated content that is tracked and tied to OKRs
-* Available on YouTube post-event to registrants only
-* link:https://developers.redhat.com/devnation/upcoming[Public schedule,window=_blank]
+* 1-hour sessions on cloud native technologies delivered by Red Hat Developer Advocates
+* Ready to use content for running them yourself on Kubernetes and OpenShift
+* Also part of DevNation Deep Dives link:https://developers.redhat.com/devnation/upcoming[Public schedule,window=_blank]
 
 
 [.tiles.browse]
 == Browse tutorials
 
 [.tile]
+.xref:00-containers.adoc[Containers]
+* xref:00-containers.adoc[Containers]
+
+[.tile]
 .xref:01-kubernetes.adoc[Kubernetes]
-* xref:01-kubernetes.adoc[Kubernetes]
+* xref:01-kubernetes.adoc#one[Kubernetes]
 * xref:01-kubernetes.adoc#two[Kubernetes II]
 * xref:01-kubernetes.adoc#three[Kubernetes III]
 
 [.tile]
 .xref:02-quarkus.adoc[Quarkus]
 * xref:02-quarkus.adoc#one[Quarkus I]
-* xref:02-quarkus.adoc#one[Quarkus I]
+* xref:02-quarkus.adoc#two[Quarkus II]
 
 [.tile]
 .xref:03-istio.adoc[Istio]
@@ -44,3 +47,16 @@
 [.tile]
 .xref:07-argocd.adoc[Argo CD]
 * xref:07-argocd.adoc[Argo CD]
+
+[.tile]
+.xref:08-operators.adoc[Kubernetes Operators]
+* xref:08-operators.adoc#one[Kubernetes Operators I]
+* xref:08-operators.adoc#two[Kubernetes Operators II]
+
+[.tile]
+.xref:09-helm.adoc[Helm]
+* xref:09-helm.adoc[Helm]
+
+[.tile]
+.xref:10-springboot.adoc[Spring Boot on Kubernetes]
+* xref:10-springboot.adoc[Spring Boot on Kubernetes]
