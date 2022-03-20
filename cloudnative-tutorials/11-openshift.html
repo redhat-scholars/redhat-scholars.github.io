@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Helm :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/09-helm.html">
-    <link rel="prev" href="08-operators.html">
-    <link rel="next" href="10-springboot.html">
+    <title>OpenShift for Developers :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/11-openshift.html">
+    <link rel="prev" href="10-springboot.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -108,13 +107,13 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="09-helm.html">Helm</a>
   </li>
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="10-springboot.html">Spring Boot on Kubernetes</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="11-openshift.html">OpenShift for Developers</a>
   </li>
 </ul>
@@ -132,35 +131,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="09-helm.html">Helm</a></li>
+    <li><a href="11-openshift.html">OpenShift for Developers</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/09-helm.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/11-openshift.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Helm</h1>
+<h1 class="page">OpenShift for Developers</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://helm.sh/" target="_blank" rel="noopener">Helm</a> as well as the more advanced principles in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://openshift.com/" target="_blank" rel="noopener">OpenShift</a> and Kubernetes as well as the more advanced principles in one module of 1.5 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/helmlogo.png" alt="helm logo" width="100">
+<img src="_images/openshiftlogo.png" alt="helm logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/helm-tutorial" target="_blank" rel="noopener">dn.dev/helm-tutorial</a></p>
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/openshift-tutorial" target="_blank" rel="noopener">dn.dev/openshift-tutorial</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/helmdeepdive" target="_blank" rel="noopener">dn.dev/helm</a></p>
+<p><strong>Slides</strong>: <a href="https://dn.dev/openshift-workshop" target="_blank" rel="noopener">dn.dev/openshift-workshop</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Helm</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>OpenShift for Developers</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -175,19 +174,19 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to streamline operations with Kubernetes resources</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.5 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to learn OpenShift and Kubernetes</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Deploying your application in Kubernetes can very quickly become a blend of YAML files containing many dependencies, configuration variables, and general confusion. Helm mitigates these concerns by bundling parameterizable YAML resources so that you no longer have to decipher which of the YAML files need to be changed and instead can focus on one application at a time. Helm makes it easy to start using Kubernetes with real applications. Helm Charts are useful for addressing the installation complexities and simplifying upgrades of stateless applications like web apps. <br>
+<p>Application delivery teams are under ever-growing pressure to deliver more capabilities in their apps and APIs. Regardless of your monolith, microservices, or event-driven architecture ambitions - Linux containers, Kubernetes orchestration, and OpenShift Dev &amp; Ops productivity enhancements will change the way you build &amp; deliver better software, faster.<br>
 <br></p>
 </div>
 <div class="imageblock unresolved">
 <div class="content">
-<img src="helm1.png" alt="Helm">
+<img src="openshift1.png" alt="OpenShift">
 </div>
 </div>
 <div class="paragraph">
@@ -196,27 +195,47 @@
 <div class="ulist">
 <ul>
 <li>
-<p>The fundamentals of Helm charts</p>
+<p>Using the OpenShift command line client and web console.</p>
 </li>
 <li>
-<p>How to install, upgrade and uninstall Helm charts in Kubernetes</p>
+<p>Deploying an application using a pre-existing container image.</p>
 </li>
 <li>
-<p>Customizing, replicating and syncing applications</p>
+<p>Working with application labels to identify component parts.</p>
 </li>
 <li>
-<p>Practical Helm chart per microservice approach</p>
+<p>Scaling up your application in order to handle web traffic.</p>
 </li>
 <li>
-<p>Practical leader chart approach with Helm</p>
+<p>Exposing your application to users outside of the cluster.</p>
+</li>
+<li>
+<p>Viewing and working with logs generated by your application.</p>
+</li>
+<li>
+<p>Accessing your application container and interacting with it.</p>
+</li>
+<li>
+<p>Giving access to other users to collaborate on your application.</p>
+</li>
+<li>
+<p>Deploying an application from source code in a Git repository.</p>
+</li>
+<li>
+<p>Deploying a database from the OpenShift developer catalog.</p>
+</li>
+<li>
+<p>Configuring an application so it can access a database.</p>
+</li>
+<li>
+<p>Setting up web hooks to enable automated application builds.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="08-operators.html">Kubernetes Operators</a></span>
-  <span class="next"><a href="10-springboot.html">Spring Boot on Kubernetes</a></span>
+  <span class="prev"><a href="10-springboot.html">Spring Boot on Kubernetes</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
