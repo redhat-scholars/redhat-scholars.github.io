@@ -6,3 +6,13 @@
 * xref:02-quarkus.adoc[Quarkus]
 ** xref:02-quarkus.adoc#one[Quarkus I]
 ** xref:02-quarkus.adoc#two[Quarkus II]
+
+* xref:03-istio.adoc[Istio]
+
+* xref:04-kafka.adoc[Kafka]
+
+* xref:05-knative.adoc[Knative]
+
+* xref:06-tekton.adoc[Tekton]
+
+* xref:07-argocd.adoc[Argo CD]

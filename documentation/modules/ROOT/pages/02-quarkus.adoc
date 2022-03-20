@@ -51,12 +51,22 @@ What you will learn:
 |Intermediate
 |===
 
+You have already learned to be superfast and supersmall with Quarkus: Subatomic, Subatomic Java. What’s next? Adding more Cloud/Kubernetes Native capabilities, of course!
+Join this deep dive session to learn how to add fault tolerance, metrics, security, and much more that you need to develop, deploy, and run your Java apps successfully in the Cloud. Interact with the CodeCasters and other attendees while learning the superpowers that Quarkus brings to your Cloud/Kubernetes Native apps. The world has changed, and Java changed with Quarkus, too. Upgrade your skills with us!
 
 
-image::quarkus1.png["Quarkus II"]
+image::quarkus2.png["Quarkus II"]
 
 
 What you will learn:
+
+* Kafka and MicroProfile Reactive Messaging
+* Microservices architecture
+* Fault tolerance
+* Health checks
+* Metrics
+* Security with JWT RBAC
+
 
 
 

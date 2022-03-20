@@ -1,0 +1,44 @@
+= Istio
+include::_attributes.adoc[]
+
+Learn the basics of link:https://istio.io[Istio,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::istiologo.png[Istio logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/istio-tutorial[dn.dev/istio-tutorial]
+
+*Slides*: link:https://dn.dev/istiomaster[dn.dev/istio]
+
+
+[#one]
+== Istio
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Kubernetes-experienced developers
+|Intermediate
+|===
+
+
+Service mesh, in general, helps developers solve typical problems they find when moving to cloud-native infrastructure and building applications out of microservices. Some of these challenges include how to consistently monitor and collect statistics, tracing, and other telemetry; how to add resiliency in the face of unexpected failure; how to do powerful feature routing (i.e., canary releases and shadowing traffic); and much more, like securing your services correctly. In this session, we'll show you how to take advantage of service mesh capabilities so you can start using them right after the session. +
+ +
+
+
+image::istio1.png["Istio"]
+
+What you will learn:
+
+* Why microservices and the service mesh?
+* Installation and setup
+* Observability
+* Traffic shaping
+* Smart dark canaries
+* Resiliency
+* Security
+
+
+
+

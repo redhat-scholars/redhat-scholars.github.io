@@ -24,3 +24,23 @@
 .xref:02-quarkus.adoc[Quarkus]
 * xref:02-quarkus.adoc#one[Quarkus I]
 * xref:02-quarkus.adoc#one[Quarkus I]
+
+[.tile]
+.xref:03-istio.adoc[Istio]
+* xref:03-istio.adoc[Istio]
+
+[.tile]
+.xref:04-kafka.adoc[Kafka]
+* xref:04-kafka.adoc[Kafka]
+
+[.tile]
+.xref:05-knative.adoc[Knative]
+* xref:04-knative.adoc[Knative]
+
+[.tile]
+.xref:06-tekton.adoc[Tekton]
+* xref:06-tekton.adoc[Tekton]
+
+[.tile]
+.xref:07-argocd.adoc[Argo CD]
+* xref:07-argocd.adoc[Argo CD]

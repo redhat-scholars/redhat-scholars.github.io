@@ -1,0 +1,46 @@
+= Tekton
+include::_attributes.adoc[]
+
+Learn the basics of link:https://tekton.dev[Tekton,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::tektonlogo.png[tekton logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/tekton-tutorial[dn.dev/tekton-tutorial]
+
+*Slides*: link:https://dn.dev/tektonmaster[dn.dev/tekton]
+
+
+[#one]
+== Tekton
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Kubernetes-experienced developers
+|Intermediate
+|===
+
+
+Automation of your end-to-end pipeline, from code commit, through “docker build,” to running in your cluster, is now possible with Tekton (Kubernetes-native Pipelines). In this session, we will present a tutorial on how to leverage Tekton for your pipeline automation. +
+ +
+
+
+image::tekton1.png["tekton"]
+
+What you will learn:
+
+* Tekton Pipelines installation and setup
+* The Tekton CLI (tkn)
+* Nexus for Maven dependencies
+* Pipeline resources
+* Task creation (e.g., mvn and docker build)
+* Pipeline crafting
+* Pipeline execution and monitoring
+
+
+
+
+
+

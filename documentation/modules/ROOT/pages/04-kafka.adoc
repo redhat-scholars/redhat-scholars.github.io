@@ -1,0 +1,46 @@
+= Kafka
+include::_attributes.adoc[]
+
+Learn the basics of link:https://kafka.apache.org/[Apache Kafka,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::kafkalogo.png[Kafka logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/kafka-tutorial[dn.dev/kafka-tutorial]
+
+*Slides*: link:https://dn.dev/kafkamaster[dn.dev/kafka]
+
+
+[#one]
+== Kafka
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Java developers and hands-on architects
+|Intermediate
+|===
+
+
+Have you been dreaming of streaming? Apache Kafka has taken over the async messaging world and is now a required skill for every Java developer.  Stop using batch processes to analyze your data, and start doing it in real time with Kafka Streams.
+Be prepared to interact with other attendees and your CodeCaster on this journey that includes Apache Kafka & AMQ Streams, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kafka in your next cloud-native application architecture. +
+ +
+
+
+image::kafka1.png["Kafka"]
+
+What you will learn:
+
+* How to install Kafka for a Developer workstation
+* How to install Kafka in a Kubernetes cluster
+* Topics/Partitions
+* Messages
+* Producers/Consumers
+* Kafka Streams
+* Windowing
+
+
+
+
+

@@ -1,5 +1,5 @@
-name: deepdive-menu
-title: Deep Dive Menu
+name: cloudnative-tutorials
+title: Cloud Native Tutorials
 version: master
 nav:
   - modules/ROOT/nav.adoc

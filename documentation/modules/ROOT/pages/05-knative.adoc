@@ -1,0 +1,47 @@
+= Knative
+include::_attributes.adoc[]
+
+Learn the basics of link:https://knative.dev[Knative,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::knativelogo.png[knative logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/knative-tutorial[dn.dev/knative-tutorial]
+
+*Slides*: link:https://dn.dev/knativemaster[dn.dev/knative]
+
+
+[#one]
+== knative
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Kubernetes-experienced developers
+|Intermediate
+|===
+
+
+Kubernetes-native serverless with Knative grants you the “magical” ability to scale to zero if your application component is underutilized. Perhaps more importantly, the skills and code you craft with Knative and Kubernetes are portable to all of the big cloud providers. 
+In this session, we will show you how to get started and how to keep rocking with the interesting capabilities of Knative Serving and Knative Eventing. +
+ +
+
+
+image::knative1.png["knative"]
+
+What you will learn:
+
+* Knative installation and setup
+* Your first Knative Serverless service
+* Traffic distribution with Blue/Green
+* Traffic distribution with Canary
+* Auto-scaling behavior modification
+* Event sources and sinks
+* Apache Kafka events 
+
+
+
+
+
+
