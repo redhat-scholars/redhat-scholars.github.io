@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Kubernetes Operators :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/08-operators.html">
-    <link rel="prev" href="07-argocd.html">
-    <link rel="next" href="09-helm.html">
+    <title>OpenShift Java Inner Loop :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/13-openshift-java-inner-loop.html">
+    <link rel="prev" href="12-openshift-inner-outer-loop.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -96,15 +95,15 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="07-argocd.html">Argo CD</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="08-operators.html">Kubernetes Operators</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="#one">Kubernetes Operators I</a>
+    <a class="nav-link" href="08-operators.html#one">Kubernetes Operators I</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="#two">Kubernetes Operators II</a>
+    <a class="nav-link" href="08-operators.html#two">Kubernetes Operators II</a>
   </li>
 </ul>
   </li>
@@ -129,7 +128,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="13-openshift-java-inner-loop.html">OpenShift Java Inner Loop</a>
   </li>
 </ul>
@@ -147,35 +146,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="08-operators.html">Kubernetes Operators</a></li>
+    <li><a href="13-openshift-java-inner-loop.html">OpenShift Java Inner Loop</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/08-operators.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/13-openshift-java-inner-loop.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Kubernetes Operators</h1>
+<h1 class="page">OpenShift Java Inner Loop</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/" target="_blank" rel="noopener">Kubernetes Operators</a>  and <a href="https://operatorframework.io/" target="_blank" rel="noopener">Operator Framework</a> as well as the more advanced principles in two modules of 1 hour each.<br>
+<p>Learn the basics of Spring Boot and Quarkus development with <a href="https://openshift.com/" target="_blank" rel="noopener">OpenShift</a> and Kubernetes as well as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/operatorslogo.png" alt="operators logo" width="100">
+<img src="_images/openshiftlogo.png" alt="helm logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/operators-tutorial">dn.dev/operators-tutorial</a></p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/java-inner-loop-dev-guide" target="_blank" rel="noopener">https://redhat-scholars.github.io/java-inner-loop-dev-guide</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/operatorsmaster">dn.dev/operators</a></p>
+<p><strong>Slides</strong>:</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Kubernetes Operators I</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>OpenShift Java Inner Loop</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -191,19 +190,21 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kubernetes application developers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java Developers that want to develop with OpenShift and Kubernetes</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Deploying simple applications to Kubernetes is easy. Deploying applications that consist of multiple microservices with complex interactions and configurations is not. Keeping those applications running is an entirely different story all together.
-This deep dive session introduces the concept of Kubernetes Operators and how they bring domain-specific knowledge about installing and maintaining your application into the cluster. This course will use the Operator SDK to rapidly build and test operators that leverage existing technologies such as Ansible and Helm.<br>
+<p>This tutorial provides you with a super-simple CRUD microservice (in two flavors: Spring Boot and Quarkus), FruitService, that implements the usual functions: create, update, delete, find all, etc. mapped to a table in a relational database.</p>
+</div>
+<div class="paragraph">
+<p>No need to code this time, the Java code is simple, it works and we have tested it against, H2, PostgreSQL and Oracle RDBMS.<br>
 <br></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="_images/operators1.png" alt="Kubernetes Operators I">
+<img src="https://redhat-scholars.github.io/java-inner-loop-dev-guide/java-inner-loop-dev-guide/_images/inner-vs-outer-loop-extended.png" alt="OpenShift Inner Outer Loop" width="500">
 </div>
 </div>
 <div class="paragraph">
@@ -212,85 +213,26 @@ This deep dive session introduces the concept of Kubernetes Operators and how th
 <div class="ulist">
 <ul>
 <li>
-<p>What is meant by the term “Kubernetes Operator”</p>
+<p>Deploy the code against PostgreSQL directly from the command line using the JKube maven plugin</p>
 </li>
 <li>
-<p>Background information on Kubernetes Custom Resource Definitions (CRDs)</p>
+<p>You will also learn how JKube leverages Source to Image (S2I) to speed up the process of building container images inside OpenShift.</p>
 </li>
 <li>
-<p>How to deploy an existing operator and use it to install an application</p>
+<p>You&#8217;ll find out how to do the same for Quarkus but this time using the Quarkus OpenShift plugin instead of JKube</p>
 </li>
 <li>
-<p>How to build an operator from an existing Helm chart</p>
+<p>We will show you how to use Telepresence to speed up development iterations.</p>
 </li>
 <li>
-<p>How to build an operator from an existing Ansible playbook</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="two"><a class="anchor" href="#two"></a>Kubernetes Operators II</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 50%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>This deep dive session builds on the fundamentals introduced in part 1 to build more advanced operators. Using the Operator SDK, an operator will be built from the ground up in Go, including fleshing out its custom resource definitions and RBAC permissions.<br>
-<br></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/operators2.png" alt="operators II">
-</div>
-</div>
-<div class="paragraph">
-<p>What you will learn:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Background information on how operators tie into Kubernetes</p>
-</li>
-<li>
-<p>How to use the Operator SDK to generate an operator scaffold project</p>
-</li>
-<li>
-<p>Techniques and best practices on implementing operators in Go</p>
-</li>
-<li>
-<p>How custom resource definitions can define their own validation schema</p>
-</li>
-<li>
-<p>How the Operator SDK facilitates the developer inner loop of rapid testing of code changes</p>
-</li>
-<li>
-<p>How to write your Operator in Java with Quarkus</p>
+<p>Finally you&#8217;ll learn how to enable Remote Development Mode for your Quarkus project</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="07-argocd.html">Argo CD</a></span>
-  <span class="next"><a href="09-helm.html">Helm</a></span>
+  <span class="prev"><a href="12-openshift-inner-outer-loop.html">OpenShift Inner &amp; Outer Loops</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
