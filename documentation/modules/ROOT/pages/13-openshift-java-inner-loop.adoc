@@ -1,0 +1,47 @@
+= OpenShift Java Inner Loop
+include::_attributes.adoc[]
+
+Learn the basics of Spring Boot and Quarkus development with https://openshift.com/[OpenShift,window=_blank] and Kubernetes as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::openshiftlogo.png[helm logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/java-inner-loop-dev-guide[https://redhat-scholars.github.io/java-inner-loop-dev-guide,window=_blank]
+
+*Slides*:
+
+
+[#one]
+== OpenShift Java Inner Loop
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Java Developers that want to develop with OpenShift and Kubernetes
+|Intermediate
+|===
+
+
+This tutorial provides you with a super-simple CRUD microservice (in two flavors: Spring Boot and Quarkus), FruitService, that implements the usual functions: create, update, delete, find all, etc. mapped to a table in a relational database.
+
+No need to code this time, the Java code is simple, it works and we have tested it against, H2, PostgreSQL and Oracle RDBMS. +
+ +
+
+
+image::https://redhat-scholars.github.io/java-inner-loop-dev-guide/java-inner-loop-dev-guide/_images/inner-vs-outer-loop-extended.png["OpenShift Inner Outer Loop", 500]
+
+What you will learn:
+
+* Deploy the code against PostgreSQL directly from the command line using the JKube maven plugin
+* You will also learn how JKube leverages Source to Image (S2I) to speed up the process of building container images inside OpenShift.
+* You'll find out how to do the same for Quarkus but this time using the Quarkus OpenShift plugin instead of JKube
+* We will show you how to use Telepresence to speed up development iterations.
+* Finally you'll learn how to enable Remote Development Mode for your Quarkus project
+
+
+
+
+
+
+
