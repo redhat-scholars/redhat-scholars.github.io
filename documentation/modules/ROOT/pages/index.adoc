@@ -1,4 +1,4 @@
-= Deep Dive Menu
+= Cloud Native Tutorials
 :page-layout: home
 :!sectids:
 
