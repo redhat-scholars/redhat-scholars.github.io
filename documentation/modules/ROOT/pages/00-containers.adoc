@@ -1,7 +1,7 @@
 = Containers
 include::_attributes.adoc[]
 
-Learn the basics of link:https://Containers.io[Containers,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+Learn the basics of link:https://www.redhat.com/en/topics/containers/whats-a-linux-container[Linux Containers,window=_blank] as well as the more advanced principles in one module of 1 hour. +
  +
 
 image::containerslogo.png[Containers logo,100,float="right"]
@@ -23,7 +23,7 @@ image::containerslogo.png[Containers logo,100,float="right"]
 |===
 
 
-Imagine you’re developing an application. You do your work on a laptop and your environment has a specific configuration. Other developers may have slightly different configurations. The application you’re developing relies on that configuration and is dependent on specific libraries, dependencies, and files. Meanwhile, your business has development and production environments that are standardized with their own configurations and their own sets of supporting files. You want to emulate those environments as much as possible locally, but without all the overhead of recreating the server environments. So, how do you make your app work across these environments, pass quality assurance, and get your app deployed without massive headaches, rewriting, and break-fixing? The answer: containers. +
+Imagine you're developing an application. You do your work on a laptop and your environment has a specific configuration. Other developers may have slightly different configurations. The application you’re developing relies on that configuration and is dependent on specific libraries, dependencies, and files. Meanwhile, your business has development and production environments that are standardized with their own configurations and their own sets of supporting files. You want to emulate those environments as much as possible locally, but without all the overhead of recreating the server environments. So, how do you make your app work across these environments, pass quality assurance, and get your app deployed without massive headaches, rewriting, and break-fixing? The answer: containers. +
  +
 
 
