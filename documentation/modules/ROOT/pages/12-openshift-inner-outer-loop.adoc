@@ -1,0 +1,67 @@
+= OpenShift Inner & Outer Loops
+include::_attributes.adoc[]
+
+This immersive workshop will put you in the Cloud Native world as a Developer: code, run and deploy modern applications on OpenShift using rich and advanced development services. +
+ +
+
+image::openshiftlogo.png[OpenShift logo,100,float="right"]
+
+
+
+
+[#one]
+== Inner Loop
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1.5 hour
+|Developers that want to learn OpenShift and Kubernetes
+|Beginner
+|===
+
+
+The goal of this hands-workshop is to provide a Developer Experience through the Inner Loop using Cloud Native Technologies. +
+ +
+
+
+image::https://redhat-scholars.github.io/inner-loop-guide/inner-loop/6.0/_images/inner-loop.png["OpenShift Inner Loop",300]
+
+What you will learn:
+
+
+*Tutorial*: link:https://redhat-scholars.github.io/inner-loop-guide/[https://redhat-scholars.github.io/inner-loop-guide/,window=_blank]
+
+*Slides*: link:https://docs.google.com/presentation/d/1F-P0DxtfsOZ6rYq5Fe213qb3AoxgebFB7aMCsGlS1kE/edit?usp=sharing[Cloud Native Inner Loop,window=_blank]
+
+
+
+[#two]
+== Outer Loop
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1.5 hour
+|Developers that want to learn OpenShift and Kubernetes
+|Beginner
+|===
+
+
+This immersive workshop will put you in the Cloud Native world as a Developer: Promote applications to the different environments (QA, staging and production) on OpenShift using rich and advanced development services. +
+ +
+
+
+image::https://redhat-scholars.github.io/outer-loop-guide/outer-loop/6.0/_images/outer-loop.png["OpenShift Outer Loop",300]
+
+What you will learn:
+
+
+*Tutorial*: link:https://redhat-scholars.github.io/outer-loop-guide/[https://redhat-scholars.github.io/outer-loop-guide/,window=_blank]
+
+*Slides*: link:https://docs.google.com/presentation/d/10itH6fOLJqyvy2clRUu01_tsQvQOzBpGFLZIETgwJgA/edit?usp=sharing[Cloud Native Inner Loop,window=_blank]
+
+
+
+
+

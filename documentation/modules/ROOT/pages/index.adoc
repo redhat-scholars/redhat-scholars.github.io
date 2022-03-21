@@ -64,3 +64,8 @@
 [.tile]
 .xref:11-openshift.adoc[OpenShift for Developers]
 * xref:11-openshift.adoc[OpenShift for Developers]
+
+[.tile]
+.xref:12-openshift-inner-outer-loop.adoc[OpenShift Inner & Outer Loops]
+* xref:12-openshift-inner-outer-loop.adoc#one[OpenShift Inner Loop]
+* xref:12-openshift-inner-outer-loop.adoc#two[OpenShift Outer Loop]
