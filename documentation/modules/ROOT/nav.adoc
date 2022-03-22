@@ -29,8 +29,8 @@
 
 * xref:11-openshift.adoc[OpenShift for Developers]
 
-* xref:12-openshift-inner-outer-loop.adoc[OpenShift Inner & Outer Loops]
-** xref:12-openshift-inner-outer-loop.adoc#one[OpenShift Inner Loop]
-** xref:12-openshift-inner-outer-loop.adoc#two[OpenShift Outer Loop]
+* OpenShift Inner & Outer Loop Workshops
+** link:https://redhat-scholars.github.io/inner-loop-guide/[OpenShift Inner Loop]
+** link:https://redhat-scholars.github.io/outer-loop-guide/[OpenShift Outer Loop]
 
-* xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop]
+* xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
