@@ -73,3 +73,9 @@
 [.tile]
 .xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
 * xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop]
+
+[.tile]
+.OpenShift Streams for Apache Kafka
+* xref:14-openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
+* xref:15-openshift-streams-for-apache-kafka-service-registry.adoc[Using OpenShift Service Registry with OpenShift Streams for Apache Kafka]
+* xref:16-openshift-streams-for-apache-kafka-streams-api.adoc[Using Kafka Streams with OpenShift Streams for Apache Kafka]
