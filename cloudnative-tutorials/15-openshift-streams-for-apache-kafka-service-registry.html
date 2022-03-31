@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Kubernetes :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/01-kubernetes.html">
-    <link rel="prev" href="00-containers.html">
-    <link rel="next" href="02-quarkus.html">
+    <title>Introduction to OpenShift Service Registry :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/15-openshift-streams-for-apache-kafka-service-registry.html">
+    <link rel="prev" href="14-openshift-streams-for-apache-kafka.html">
+    <link rel="next" href="16-openshift-streams-for-apache-kafka-streams-api.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -54,18 +54,18 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="00-containers.html">Containers</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="01-kubernetes.html">Kubernetes</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="#one">Kubernetes I</a>
+    <a class="nav-link" href="01-kubernetes.html#one">Kubernetes I</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="#two">Kubernetes II</a>
+    <a class="nav-link" href="01-kubernetes.html#two">Kubernetes II</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="#three">Kubernetes III</a>
+    <a class="nav-link" href="01-kubernetes.html#three">Kubernetes III</a>
   </li>
 </ul>
   </li>
@@ -139,7 +139,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="14-openshift-streams-for-apache-kafka.html">Introduction to OpenShift Streams for Apache Kafka</a>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="15-openshift-streams-for-apache-kafka-service-registry.html">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -162,103 +162,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="01-kubernetes.html">Kubernetes</a></li>
+    <li>OpenShift Streams for Apache Kafka</li>
+    <li><a href="15-openshift-streams-for-apache-kafka-service-registry.html">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/01-kubernetes.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/15-openshift-streams-for-apache-kafka-service-registry.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Kubernetes</h1>
+<h1 class="page">Introduction to OpenShift Service Registry</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://kubernetes.io" target="_blank" rel="noopener">Kubernetes</a> as well as the more advanced principles in three modules of 1 hour each.</p>
+<p>Learn how to use OpenShift Service Registry to manage your Apache Kafka schemas without having to install, configure, run, and maintain infrastructure.</p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/kubelogo.png" alt="Kube logo" width="100">
+<img src="_images/openshift-streams-logo.png" alt="OpenShift Streams logo" width="200">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/kube-tutorial">dn.dev/kube-tutorial</a></p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/managed-kafka-service-registry-workshop/" target="_blank" rel="noopener">https://redhat-scholars.github.io/managed-kafka-service-registry-workshop/</a></p>
+</div>
+<div class="paragraph">
+<p>&#160;<br></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Kubernetes I</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 50%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top"><strong>Duration</strong></th>
-<th class="tableblock halign-left valign-top"><strong>Audience</strong></th>
-<th class="tableblock halign-left valign-top"><strong>Level</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>Don’t be the last one to board the Kubernetes train! Even if you’re not deploying apps to Kubernetes now, you might be soon. So hurry up, take this deep dive with us, and learn from recognized CodeCasters about the fundamentals of Kubernetes.
-Be prepared to interact with other attendees and the instructor on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/kube1.png" alt="Kubernetes I">
-</div>
-</div>
-<div class="paragraph">
-<p>What you will learn:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Why use Kubernetes?</p>
-</li>
-<li>
-<p>What Kubernetes is</p>
-</li>
-<li>
-<p>Kubernetes installation</p>
-</li>
-<li>
-<p>Kubernetes CLI with kubectl</p>
-</li>
-<li>
-<p>Pod, ReplicaSet, and Deployment</p>
-</li>
-<li>
-<p>Logs and stern</p>
-</li>
-<li>
-<p>Debugging with kubectl exec</p>
-</li>
-<li>
-<p>Applications as a Service</p>
-</li>
-<li>
-<p>Rolling update delivery</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/kubemaster1">dn.dev/kubemaster1</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="two"><a class="anchor" href="#two"></a>Kubernetes II</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Introduction to OpenShift Streams for Apache Kafka</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -274,114 +206,41 @@ Be prepared to interact with other attendees and the instructor on this journey 
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers that want to manage schemas for their applications that connect to Apache Kafka.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>You learned the Kubernetes basics, so what’s next? Deploying successfully, of course! Limit the resources you app can consume, perform smooth rolling updates with proper health and readiness probes, and master the configuration of your apps.
-Be prepared to interact with other attendees and your CodeCaster on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/kube2.png" alt="Kubernetes II">
-</div>
+<p>Kafka itself does not mandate a format for messages. Popular formats for Kafka messages include JSON, Protobuf and Avro. Avro and Protobuf are binary formats, which are much more compact than for example JSON. They require less storage space and less bandwidth. On the other hand, Avro and protobuf require a schema to serialize and deserialize the binary payload. These schemas are generally stored and maintained in a schema registry.</p>
 </div>
 <div class="paragraph">
-<p>What you will learn:</p>
+<p>OpenShift Service Registry is a managed cloud service which provides you with an instance of a schema registry, where you can store and manage different kind of schemas, including OpenAPI spec documents and Avro and Protobuf schemas.</p>
+</div>
+<div class="paragraph">
+<p>In this tutorial you will:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Building images</p>
+<p>Provision a Kafka instance using OpenShift Streams for Apache Kafka.</p>
 </li>
 <li>
-<p>Resource Limits</p>
+<p>Provision a Service Registry instance using OpenShift Service Registry.</p>
 </li>
 <li>
-<p>Rolling update delivery</p>
+<p>Create a service account to connect to the Kafka and the Service Registry instances.</p>
 </li>
 <li>
-<p>Liveness and readiness probes</p>
-</li>
-<li>
-<p>Environment variables and ConfigMaps</p>
+<p>Run a couple of Quarkus applications which produce and consume messages to and from the Kafka instance using the Avro binary format. The Avro schema is stored in the Service Registry instance.</p>
 </li>
 </ul>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/kubemaster2">dn.dev/kubemaster2</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="three"><a class="anchor" href="#three"></a>Kubernetes III</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 50%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Advanced</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>Application deployed to Kubernetes! Now that we deployed it, what else do we need to be successful in production? Let&#8217;s look at how features like volumes, secrets, and operators can help us deploy stateful applications like databases into our Kubernetes clusters.
-Be prepared to interact with other attendees and your CodeCaster on this journey that includes the open hybrid cloud, Kubernetes, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kubernetes to fulfill your cloud-native requirements.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/kube2.png" alt="Kubernetes III">
-</div>
-</div>
-<div class="paragraph">
-<p>What you will learn:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Secrets</p>
-</li>
-<li>
-<p>Operators</p>
-</li>
-<li>
-<p>Volumes</p>
-</li>
-<li>
-<p>Taints</p>
-</li>
-<li>
-<p>Jobs</p>
-</li>
-<li>
-<p>DaemonSet</p>
-</li>
-<li>
-<p>StatefulSet</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/kubemaster3">dn.dev/kubemaster3</a></p>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="00-containers.html">Containers</a></span>
-  <span class="next"><a href="02-quarkus.html">Quarkus</a></span>
+  <span class="prev"><a href="14-openshift-streams-for-apache-kafka.html">Introduction to OpenShift Streams for Apache Kafka</a></span>
+  <span class="next"><a href="16-openshift-streams-for-apache-kafka-streams-api.html">Using Kafka Streams with OpenShift Streams for Apache Kafka</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
