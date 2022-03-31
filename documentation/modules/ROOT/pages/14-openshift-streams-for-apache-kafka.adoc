@@ -1,0 +1,31 @@
+= Welcome to OpenShift Streams for Apache Kafka
+include::_attributes.adoc[]
+
+Learn the basics of Apache Kafka without having to install, configure, run, and maintain your own Kafka clusters, and connect to a Kafka cluster from a Java application running on OpenShift.
+
+
+image::openshift-streams-logo.png[OpenShift Streams logo,200,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/managed-kafka-workshop/[https://redhat-scholars.github.io/managed-kafka-workshop/,window=_blank]
+
+{nbsp} +
+
+[#one]
+== Introduction to OpenShift Streams for Apache Kafka
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers that want to learn the basics of Apache Kafka.
+|Intermediate
+|===
+
+In this tutorial you will:
+
+* Create a Kafka instance using OpenShift Streams for Apache Kafka.
+* Manage access using Service Accounts and RBAC.
+* Create a topic in the Kafka instance.
+* Produce and consume messages using CLI tools.
+* Use the Red Hat OpenShift Application Services (RHOAS) Operator and CLI to connect the OpenShift Streams for Apache Kafka to an OpenShift cluster.
+* Bind a Quarkus application to OpenShift Streams for Apache Kafka using the Red Hat OpenShift Application Services CLI.
