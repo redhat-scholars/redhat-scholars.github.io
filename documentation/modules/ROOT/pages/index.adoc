@@ -73,3 +73,7 @@
 [.tile]
 .xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
 * xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop]
+
+[.title]
+.xref:14-thoth-aidevsecops.adoc[Project Thoth (AIDevSecOps)]
+* xref:14-thoth-aidevsecops.adoc[Project Thoth (AIDevSecOps)]

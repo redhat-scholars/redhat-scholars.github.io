@@ -1,0 +1,34 @@
+= Project Thoth (AIDevSecOps)
+include::_attributes.adoc[]
+
+Learn the basics of Project Thoth https://thoth-station.ninja/[Thoth,window=_blank] to secure your Python applications in one module of 1 hour. +
+ +
+
+image::thoth.png[thoth logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/managing-vulnerabilities-with-thoth/managing-vulnerabilities-with-thoth/[https://redhat-scholars.github.io/managing-vulnerabilities-with-thoth/managing-vulnerabilities-with-thoth/,window=_blank]
+
+*Slides*:
+
+
+[#one]
+== Project Thoth (AIDevSecOps)
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Python developers who want to get guidance on application dependencies with respect to security, stability or performance.
+|Intermediate
+|===
+
+
+This tutorial provides you and introduction to Project Thoth - how to resolve Python application dependencies and how to get insights on open-source software consumed. +
+ +
+
+
+What you will learn:
+
+* Run a Python application using Thoth tooling
+* Ask Thoth's recommendation engine to resolve application dependencies specifically for your project
+* How to make sure secure applications are shipped to your environments

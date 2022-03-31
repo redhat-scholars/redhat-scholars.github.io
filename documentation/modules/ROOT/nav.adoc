@@ -34,3 +34,5 @@
 ** link:https://redhat-scholars.github.io/outer-loop-guide/[OpenShift Outer Loop]
 
 * xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
+
+* xref:14-thoth-aidevsecops.adoc[Project Thoth (AIDevSecOps)]
