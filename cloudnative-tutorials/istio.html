@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cloud Native Tutorials :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/index.html">
-    <link rel="next" href="containers.html">
+    <title>Istio :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/istio.html">
+    <link rel="prev" href="kubernetes.html">
+    <link rel="next" href="kafka.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -68,7 +69,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="istio.html">Istio</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -163,184 +164,101 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="index.html" class="home-link is-current"></a>
+  <a href="index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
+    <li><a href="istio.html">Istio</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/index.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/istio.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Cloud Native Tutorials</h1>
-<div class="sect1 text-center strong">
-<h2>Cloud Native workshops and tutorials</h2>
+<h1 class="page">Istio</h1>
+<div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Learn the basics of <a href="https://istio.io" target="_blank" rel="noopener">Istio</a> as well as the more advanced principles in one module of 1 hour.<br>
+<br></p>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="_images/istiologo.png" alt="Istio logo" width="100">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/istio-tutorial">dn.dev/istio-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/istiomaster">dn.dev/istio</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="one"><a class="anchor" href="#one"></a>Istio</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For Kubernetes-experienced developers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Service mesh, in general, helps developers solve typical problems they find when moving to cloud-native infrastructure and building applications out of microservices. Some of these challenges include how to consistently monitor and collect statistics, tracing, and other telemetry; how to add resiliency in the face of unexpected failure; how to do powerful feature routing (i.e., canary releases and shadowing traffic); and much more, like securing your services correctly. In this session, we&#8217;ll show you how to take advantage of service mesh capabilities so you can start using them right after the session.<br>
+<br></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/istio1.png" alt="Istio">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>hour sessions on cloud native technologies delivered by Red Hat Developer Advocates</p>
+<p>Why microservices and the service mesh?</p>
 </li>
 <li>
-<p>Ready to use content for running them yourself on Kubernetes and OpenShift</p>
+<p>Installation and setup</p>
 </li>
 <li>
-<p>Also part of DevNation Deep Dives <a href="https://developers.redhat.com/devnation/upcoming" target="_blank" rel="noopener">Public schedule</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1 tiles browse">
-<h2>Browse tutorials</h2>
-<div class="sectionbody">
-<div class="ulist tile">
-<div class="title"><a href="containers.html" class="xref page">Containers</a></div>
-<ul>
-<li>
-<p><a href="containers.html" class="xref page">Containers</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="kubernetes.html" class="xref page">Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="kubernetes.html#one" class="xref page">Kubernetes</a></p>
+<p>Observability</p>
 </li>
 <li>
-<p><a href="kubernetes.html#two" class="xref page">Kubernetes II</a></p>
+<p>Traffic shaping</p>
 </li>
 <li>
-<p><a href="kubernetes.html#three" class="xref page">Kubernetes III</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="istio.html" class="xref page">Istio</a></div>
-<ul>
-<li>
-<p><a href="istio.html" class="xref page">Istio</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="kafka.html" class="xref page">Kafka</a></div>
-<ul>
-<li>
-<p><a href="kafka.html" class="xref page">Kafka</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="knative.html" class="xref page">Knative</a></div>
-<ul>
-<li>
-<p><a href="knative.html" class="xref page">Knative</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="tekton.html" class="xref page">Tekton</a></div>
-<ul>
-<li>
-<p><a href="tekton.html" class="xref page">Tekton</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="argocd.html" class="xref page">Argo CD</a></div>
-<ul>
-<li>
-<p><a href="argocd.html" class="xref page">Argo CD</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="operators.html" class="xref page">Kubernetes Operators</a></div>
-<ul>
-<li>
-<p><a href="operators.html#one" class="xref page">Kubernetes Operators I</a></p>
+<p>Smart dark canaries</p>
 </li>
 <li>
-<p><a href="operators.html#two" class="xref page">Kubernetes Operators II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="helm.html" class="xref page">Helm</a></div>
-<ul>
-<li>
-<p><a href="helm.html" class="xref page">Helm</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="quarkus.html" class="xref page">Quarkus</a></div>
-<ul>
-<li>
-<p><a href="quarkus.html#one" class="xref page">Quarkus I</a></p>
+<p>Resiliency</p>
 </li>
 <li>
-<p><a href="quarkus.html#two" class="xref page">Quarkus II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></div>
-<ul>
-<li>
-<p><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift</div>
-<ul>
-<li>
-<p><a href="openshift.html" class="xref page">OpenShift for Developers</a></p>
-</li>
-<li>
-<p><a href="https://redhat-scholars.github.io/inner-loop-guide/" target="_blank" rel="noopener">OpenShift Inner Loop</a></p>
-</li>
-<li>
-<p><a href="https://redhat-scholars.github.io/outer-loop-guide/" target="_blank" rel="noopener">OpenShift Outer Loop</a></p>
-</li>
-<li>
-<p><a href="openshift-java-inner-loop.html" class="xref page">OpenShift Java Inner Loop</a></p>
-</li>
-<li>
-<p><a href="openshift-efficient-resource-management.html" class="xref page">Efficient Resource Management with OpenShift</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift Streams for Apache Kafka</div>
-<ul>
-<li>
-<p><a href="openshift-streams-for-apache-kafka.html" class="xref page">Introduction to OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-service-registry.html" class="xref page">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-streams-api.html" class="xref page">Using Kafka Streams with OpenShift Streams for Apache Kafka</a></p>
+<p>Security</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="next"><a href="containers.html">Containers</a></span>
+  <span class="prev"><a href="kubernetes.html">Kubernetes</a></span>
+  <span class="next"><a href="kafka.html">Kafka</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">

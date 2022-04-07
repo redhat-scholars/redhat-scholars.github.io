@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cloud Native Tutorials :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/index.html">
-    <link rel="next" href="containers.html">
+    <title>OpenShift for Developers :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift.html">
+    <link rel="prev" href="build-container-podman.html">
+    <link rel="next" href="openshift-java-inner-loop.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -120,7 +121,7 @@
     <button class="nav-item-toggle"></button>
     <span class="nav-text">OpenShift</span>
 <ul class="nav-list">
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="openshift.html">OpenShift for Developers</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -163,184 +164,117 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="index.html" class="home-link is-current"></a>
+  <a href="index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
+    <li>OpenShift</li>
+    <li><a href="openshift.html">OpenShift for Developers</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/index.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Cloud Native Tutorials</h1>
-<div class="sect1 text-center strong">
-<h2>Cloud Native workshops and tutorials</h2>
+<h1 class="page">OpenShift for Developers</h1>
+<div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Learn the basics of <a href="https://openshift.com/" target="_blank" rel="noopener">OpenShift</a> and Kubernetes as well as the more advanced principles in one module of 1.5 hour.<br>
+<br></p>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="_images/openshiftlogo.png" alt="helm logo" width="100">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/openshift-tutorial" target="_blank" rel="noopener">dn.dev/openshift-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/openshift-workshop" target="_blank" rel="noopener">dn.dev/openshift-workshop</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="one"><a class="anchor" href="#one"></a>OpenShift for Developers</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.5 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to learn OpenShift and Kubernetes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Application delivery teams are under ever-growing pressure to deliver more capabilities in their apps and APIs. Regardless of your monolith, microservices, or event-driven architecture ambitions - Linux containers, Kubernetes orchestration, and OpenShift Dev &amp; Ops productivity enhancements will change the way you build &amp; deliver better software, faster.<br>
+<br></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/openshift1.png" alt="OpenShift">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>hour sessions on cloud native technologies delivered by Red Hat Developer Advocates</p>
+<p>Using the OpenShift command line client and web console.</p>
 </li>
 <li>
-<p>Ready to use content for running them yourself on Kubernetes and OpenShift</p>
+<p>Deploying an application using a pre-existing container image.</p>
 </li>
 <li>
-<p>Also part of DevNation Deep Dives <a href="https://developers.redhat.com/devnation/upcoming" target="_blank" rel="noopener">Public schedule</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1 tiles browse">
-<h2>Browse tutorials</h2>
-<div class="sectionbody">
-<div class="ulist tile">
-<div class="title"><a href="containers.html" class="xref page">Containers</a></div>
-<ul>
-<li>
-<p><a href="containers.html" class="xref page">Containers</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="kubernetes.html" class="xref page">Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="kubernetes.html#one" class="xref page">Kubernetes</a></p>
+<p>Working with application labels to identify component parts.</p>
 </li>
 <li>
-<p><a href="kubernetes.html#two" class="xref page">Kubernetes II</a></p>
+<p>Scaling up your application in order to handle web traffic.</p>
 </li>
 <li>
-<p><a href="kubernetes.html#three" class="xref page">Kubernetes III</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="istio.html" class="xref page">Istio</a></div>
-<ul>
-<li>
-<p><a href="istio.html" class="xref page">Istio</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="kafka.html" class="xref page">Kafka</a></div>
-<ul>
-<li>
-<p><a href="kafka.html" class="xref page">Kafka</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="knative.html" class="xref page">Knative</a></div>
-<ul>
-<li>
-<p><a href="knative.html" class="xref page">Knative</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="tekton.html" class="xref page">Tekton</a></div>
-<ul>
-<li>
-<p><a href="tekton.html" class="xref page">Tekton</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="argocd.html" class="xref page">Argo CD</a></div>
-<ul>
-<li>
-<p><a href="argocd.html" class="xref page">Argo CD</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="operators.html" class="xref page">Kubernetes Operators</a></div>
-<ul>
-<li>
-<p><a href="operators.html#one" class="xref page">Kubernetes Operators I</a></p>
+<p>Exposing your application to users outside of the cluster.</p>
 </li>
 <li>
-<p><a href="operators.html#two" class="xref page">Kubernetes Operators II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="helm.html" class="xref page">Helm</a></div>
-<ul>
-<li>
-<p><a href="helm.html" class="xref page">Helm</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="quarkus.html" class="xref page">Quarkus</a></div>
-<ul>
-<li>
-<p><a href="quarkus.html#one" class="xref page">Quarkus I</a></p>
+<p>Viewing and working with logs generated by your application.</p>
 </li>
 <li>
-<p><a href="quarkus.html#two" class="xref page">Quarkus II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></div>
-<ul>
-<li>
-<p><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift</div>
-<ul>
-<li>
-<p><a href="openshift.html" class="xref page">OpenShift for Developers</a></p>
+<p>Accessing your application container and interacting with it.</p>
 </li>
 <li>
-<p><a href="https://redhat-scholars.github.io/inner-loop-guide/" target="_blank" rel="noopener">OpenShift Inner Loop</a></p>
+<p>Giving access to other users to collaborate on your application.</p>
 </li>
 <li>
-<p><a href="https://redhat-scholars.github.io/outer-loop-guide/" target="_blank" rel="noopener">OpenShift Outer Loop</a></p>
+<p>Deploying an application from source code in a Git repository.</p>
 </li>
 <li>
-<p><a href="openshift-java-inner-loop.html" class="xref page">OpenShift Java Inner Loop</a></p>
+<p>Deploying a database from the OpenShift developer catalog.</p>
 </li>
 <li>
-<p><a href="openshift-efficient-resource-management.html" class="xref page">Efficient Resource Management with OpenShift</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift Streams for Apache Kafka</div>
-<ul>
-<li>
-<p><a href="openshift-streams-for-apache-kafka.html" class="xref page">Introduction to OpenShift Streams for Apache Kafka</a></p>
+<p>Configuring an application so it can access a database.</p>
 </li>
 <li>
-<p><a href="openshift-streams-for-apache-kafka-service-registry.html" class="xref page">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-streams-api.html" class="xref page">Using Kafka Streams with OpenShift Streams for Apache Kafka</a></p>
+<p>Setting up web hooks to enable automated application builds.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="next"><a href="containers.html">Containers</a></span>
+  <span class="prev"><a href="build-container-podman.html">Build a Container - Podman</a></span>
+  <span class="next"><a href="openshift-java-inner-loop.html">OpenShift Java Inner Loop Workshop</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">

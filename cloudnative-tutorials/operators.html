@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cloud Native Tutorials :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/index.html">
-    <link rel="next" href="containers.html">
+    <title>Kubernetes Operators :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/operators.html">
+    <link rel="prev" href="argocd.html">
+    <link rel="next" href="helm.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -83,15 +84,15 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="argocd.html">Argo CD</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="operators.html">Kubernetes Operators</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="operators.html#one">Kubernetes Operators I</a>
+    <a class="nav-link" href="#one">Kubernetes Operators I</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="operators.html#two">Kubernetes Operators II</a>
+    <a class="nav-link" href="#two">Kubernetes Operators II</a>
   </li>
 </ul>
   </li>
@@ -163,184 +164,154 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="index.html" class="home-link is-current"></a>
+  <a href="index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
+    <li><a href="operators.html">Kubernetes Operators</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/index.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/operators.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Cloud Native Tutorials</h1>
-<div class="sect1 text-center strong">
-<h2>Cloud Native workshops and tutorials</h2>
+<h1 class="page">Kubernetes Operators</h1>
+<div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Learn the basics of <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/operator/" target="_blank" rel="noopener">Kubernetes Operators</a>  and <a href="https://operatorframework.io/" target="_blank" rel="noopener">Operator Framework</a> as well as the more advanced principles in two modules of 1 hour each.<br>
+<br></p>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="_images/operatorslogo.png" alt="operators logo" width="100">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/operators-tutorial">dn.dev/operators-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/operatorsmaster">dn.dev/operators</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="one"><a class="anchor" href="#one"></a>Kubernetes Operators I</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Kubernetes application developers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Deploying simple applications to Kubernetes is easy. Deploying applications that consist of multiple microservices with complex interactions and configurations is not. Keeping those applications running is an entirely different story all together.
+This deep dive session introduces the concept of Kubernetes Operators and how they bring domain-specific knowledge about installing and maintaining your application into the cluster. This course will use the Operator SDK to rapidly build and test operators that leverage existing technologies such as Ansible and Helm.<br>
+<br></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/operators1.png" alt="Kubernetes Operators I">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>hour sessions on cloud native technologies delivered by Red Hat Developer Advocates</p>
+<p>What is meant by the term “Kubernetes Operator”</p>
 </li>
 <li>
-<p>Ready to use content for running them yourself on Kubernetes and OpenShift</p>
+<p>Background information on Kubernetes Custom Resource Definitions (CRDs)</p>
 </li>
 <li>
-<p>Also part of DevNation Deep Dives <a href="https://developers.redhat.com/devnation/upcoming" target="_blank" rel="noopener">Public schedule</a></p>
+<p>How to deploy an existing operator and use it to install an application</p>
+</li>
+<li>
+<p>How to build an operator from an existing Helm chart</p>
+</li>
+<li>
+<p>How to build an operator from an existing Ansible playbook</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
-<div class="sect1 tiles browse">
-<h2>Browse tutorials</h2>
+<div class="sect1">
+<h2 id="two"><a class="anchor" href="#two"></a>Kubernetes Operators II</h2>
 <div class="sectionbody">
-<div class="ulist tile">
-<div class="title"><a href="containers.html" class="xref page">Containers</a></div>
-<ul>
-<li>
-<p><a href="containers.html" class="xref page">Containers</a></p>
-</li>
-</ul>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>This deep dive session builds on the fundamentals introduced in part 1 to build more advanced operators. Using the Operator SDK, an operator will be built from the ground up in Go, including fleshing out its custom resource definitions and RBAC permissions.<br>
+<br></p>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="kubernetes.html" class="xref page">Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="kubernetes.html#one" class="xref page">Kubernetes</a></p>
-</li>
-<li>
-<p><a href="kubernetes.html#two" class="xref page">Kubernetes II</a></p>
-</li>
-<li>
-<p><a href="kubernetes.html#three" class="xref page">Kubernetes III</a></p>
-</li>
-</ul>
+<div class="imageblock">
+<div class="content">
+<img src="_images/operators2.png" alt="operators II">
 </div>
-<div class="ulist tile">
-<div class="title"><a href="istio.html" class="xref page">Istio</a></div>
-<ul>
-<li>
-<p><a href="istio.html" class="xref page">Istio</a></p>
-</li>
-</ul>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="kafka.html" class="xref page">Kafka</a></div>
-<ul>
-<li>
-<p><a href="kafka.html" class="xref page">Kafka</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>What you will learn:</p>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="knative.html" class="xref page">Knative</a></div>
+<div class="ulist">
 <ul>
 <li>
-<p><a href="knative.html" class="xref page">Knative</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="tekton.html" class="xref page">Tekton</a></div>
-<ul>
-<li>
-<p><a href="tekton.html" class="xref page">Tekton</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="argocd.html" class="xref page">Argo CD</a></div>
-<ul>
-<li>
-<p><a href="argocd.html" class="xref page">Argo CD</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="operators.html" class="xref page">Kubernetes Operators</a></div>
-<ul>
-<li>
-<p><a href="operators.html#one" class="xref page">Kubernetes Operators I</a></p>
+<p>Background information on how operators tie into Kubernetes</p>
 </li>
 <li>
-<p><a href="operators.html#two" class="xref page">Kubernetes Operators II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="helm.html" class="xref page">Helm</a></div>
-<ul>
-<li>
-<p><a href="helm.html" class="xref page">Helm</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="quarkus.html" class="xref page">Quarkus</a></div>
-<ul>
-<li>
-<p><a href="quarkus.html#one" class="xref page">Quarkus I</a></p>
+<p>How to use the Operator SDK to generate an operator scaffold project</p>
 </li>
 <li>
-<p><a href="quarkus.html#two" class="xref page">Quarkus II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></div>
-<ul>
-<li>
-<p><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift</div>
-<ul>
-<li>
-<p><a href="openshift.html" class="xref page">OpenShift for Developers</a></p>
+<p>Techniques and best practices on implementing operators in Go</p>
 </li>
 <li>
-<p><a href="https://redhat-scholars.github.io/inner-loop-guide/" target="_blank" rel="noopener">OpenShift Inner Loop</a></p>
+<p>How custom resource definitions can define their own validation schema</p>
 </li>
 <li>
-<p><a href="https://redhat-scholars.github.io/outer-loop-guide/" target="_blank" rel="noopener">OpenShift Outer Loop</a></p>
+<p>How the Operator SDK facilitates the developer inner loop of rapid testing of code changes</p>
 </li>
 <li>
-<p><a href="openshift-java-inner-loop.html" class="xref page">OpenShift Java Inner Loop</a></p>
-</li>
-<li>
-<p><a href="openshift-efficient-resource-management.html" class="xref page">Efficient Resource Management with OpenShift</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift Streams for Apache Kafka</div>
-<ul>
-<li>
-<p><a href="openshift-streams-for-apache-kafka.html" class="xref page">Introduction to OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-service-registry.html" class="xref page">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-streams-api.html" class="xref page">Using Kafka Streams with OpenShift Streams for Apache Kafka</a></p>
+<p>How to write your Operator in Java with Quarkus</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="next"><a href="containers.html">Containers</a></span>
+  <span class="prev"><a href="argocd.html">Argo CD</a></span>
+  <span class="next"><a href="helm.html">Helm</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">

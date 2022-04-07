@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cloud Native Tutorials :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/index.html">
-    <link rel="next" href="containers.html">
+    <title>Quarkus :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/quarkus.html">
+    <link rel="prev" href="helm.html">
+    <link rel="next" href="springboot.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -98,15 +99,15 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="helm.html">Helm</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="quarkus.html">Quarkus</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="quarkus.html#one">Quarkus I</a>
+    <a class="nav-link" href="#one">Quarkus I</a>
   </li>
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="quarkus.html#two">Quarkus II</a>
+    <a class="nav-link" href="#two">Quarkus II</a>
   </li>
 </ul>
   </li>
@@ -163,184 +164,157 @@
 <main class="article">
 <div class="toolbar" role="navigation">
 <button class="nav-toggle"></button>
-  <a href="index.html" class="home-link is-current"></a>
+  <a href="index.html" class="home-link"></a>
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
+    <li><a href="quarkus.html">Quarkus</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/index.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/quarkus.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Cloud Native Tutorials</h1>
-<div class="sect1 text-center strong">
-<h2>Cloud Native workshops and tutorials</h2>
+<h1 class="page">Quarkus</h1>
+<div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Learn the basics of <a href="https://quarkus.io" target="_blank" rel="noopener">Quarkus</a> as well as the more advanced principles in two modules of 1 hour each.<br>
+<br></p>
+</div>
+<div class="imageblock right">
+<div class="content">
+<img src="_images/quarkuslogo.png" alt="Quarkus logo" width="100">
+</div>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/quarkus-tutorial">dn.dev/quarkus-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/quarkusmaster">dn.dev/quarkus</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="one"><a class="anchor" href="#one"></a>Quarkus I</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Spring, Java EE, and Enterprise Java developers</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Is your Java app consuming the server’s whole memory and taking minutes to boot? And then, even more time to redeploy? Get rid of your 25-year-old Java jokes and learn Quarkus, the supersonic, subatomic Java.
+Join this deep dive session to learn how Java apps can have small memory footprints, boot in milliseconds, and help you have instantaneous save/refresh coding sessions. Interact with our CodeCasters and other attendees while learning the superpowers that Quarkus brings to next-generation apps. The world has changed, and Java changed with Quarkus, too. Upgrade your skills with us!<br>
+<br></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/quarkus1.png" alt="Quarkus I">
+</div>
+</div>
+<div class="paragraph">
+<p>What you will learn:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>hour sessions on cloud native technologies delivered by Red Hat Developer Advocates</p>
+<p>Quarkus setup</p>
 </li>
 <li>
-<p>Ready to use content for running them yourself on Kubernetes and OpenShift</p>
+<p>CRUD and RDBMS</p>
 </li>
 <li>
-<p>Also part of DevNation Deep Dives <a href="https://developers.redhat.com/devnation/upcoming" target="_blank" rel="noopener">Public schedule</a></p>
+<p>JVM and native deployment</p>
+</li>
+<li>
+<p>Custom configuration</p>
+</li>
+<li>
+<p>Quarkus deployment to Kubernetes/OpenShift</p>
+</li>
+<li>
+<p>Spring compatibility extensions</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
-<div class="sect1 tiles browse">
-<h2>Browse tutorials</h2>
+<div class="sect1">
+<h2 id="two"><a class="anchor" href="#two"></a>Quarkus II</h2>
 <div class="sectionbody">
-<div class="ulist tile">
-<div class="title"><a href="containers.html" class="xref page">Containers</a></div>
-<ul>
-<li>
-<p><a href="containers.html" class="xref page">Containers</a></p>
-</li>
-</ul>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>You have already learned to be superfast and supersmall with Quarkus: Subatomic, Subatomic Java. What’s next? Adding more Cloud/Kubernetes Native capabilities, of course!
+Join this deep dive session to learn how to add fault tolerance, metrics, security, and much more that you need to develop, deploy, and run your Java apps successfully in the Cloud. Interact with the CodeCasters and other attendees while learning the superpowers that Quarkus brings to your Cloud/Kubernetes Native apps. The world has changed, and Java changed with Quarkus, too. Upgrade your skills with us!</p>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="kubernetes.html" class="xref page">Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="kubernetes.html#one" class="xref page">Kubernetes</a></p>
-</li>
-<li>
-<p><a href="kubernetes.html#two" class="xref page">Kubernetes II</a></p>
-</li>
-<li>
-<p><a href="kubernetes.html#three" class="xref page">Kubernetes III</a></p>
-</li>
-</ul>
+<div class="imageblock">
+<div class="content">
+<img src="_images/quarkus2.png" alt="Quarkus II">
 </div>
-<div class="ulist tile">
-<div class="title"><a href="istio.html" class="xref page">Istio</a></div>
-<ul>
-<li>
-<p><a href="istio.html" class="xref page">Istio</a></p>
-</li>
-</ul>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="kafka.html" class="xref page">Kafka</a></div>
-<ul>
-<li>
-<p><a href="kafka.html" class="xref page">Kafka</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>What you will learn:</p>
 </div>
-<div class="ulist tile">
-<div class="title"><a href="knative.html" class="xref page">Knative</a></div>
+<div class="ulist">
 <ul>
 <li>
-<p><a href="knative.html" class="xref page">Knative</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="tekton.html" class="xref page">Tekton</a></div>
-<ul>
-<li>
-<p><a href="tekton.html" class="xref page">Tekton</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="argocd.html" class="xref page">Argo CD</a></div>
-<ul>
-<li>
-<p><a href="argocd.html" class="xref page">Argo CD</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="operators.html" class="xref page">Kubernetes Operators</a></div>
-<ul>
-<li>
-<p><a href="operators.html#one" class="xref page">Kubernetes Operators I</a></p>
+<p>Kafka and MicroProfile Reactive Messaging</p>
 </li>
 <li>
-<p><a href="operators.html#two" class="xref page">Kubernetes Operators II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="helm.html" class="xref page">Helm</a></div>
-<ul>
-<li>
-<p><a href="helm.html" class="xref page">Helm</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="quarkus.html" class="xref page">Quarkus</a></div>
-<ul>
-<li>
-<p><a href="quarkus.html#one" class="xref page">Quarkus I</a></p>
+<p>Microservices architecture</p>
 </li>
 <li>
-<p><a href="quarkus.html#two" class="xref page">Quarkus II</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></div>
-<ul>
-<li>
-<p><a href="springboot.html" class="xref page">Spring Boot on Kubernetes</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title"><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></div>
-<ul>
-<li>
-<p><a href="build-container-podman.html" class="xref page">Build a Container - Podman</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift</div>
-<ul>
-<li>
-<p><a href="openshift.html" class="xref page">OpenShift for Developers</a></p>
+<p>Fault tolerance</p>
 </li>
 <li>
-<p><a href="https://redhat-scholars.github.io/inner-loop-guide/" target="_blank" rel="noopener">OpenShift Inner Loop</a></p>
+<p>Health checks</p>
 </li>
 <li>
-<p><a href="https://redhat-scholars.github.io/outer-loop-guide/" target="_blank" rel="noopener">OpenShift Outer Loop</a></p>
+<p>Metrics</p>
 </li>
 <li>
-<p><a href="openshift-java-inner-loop.html" class="xref page">OpenShift Java Inner Loop</a></p>
-</li>
-<li>
-<p><a href="openshift-efficient-resource-management.html" class="xref page">Efficient Resource Management with OpenShift</a></p>
-</li>
-</ul>
-</div>
-<div class="ulist tile">
-<div class="title">OpenShift Streams for Apache Kafka</div>
-<ul>
-<li>
-<p><a href="openshift-streams-for-apache-kafka.html" class="xref page">Introduction to OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-service-registry.html" class="xref page">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a></p>
-</li>
-<li>
-<p><a href="openshift-streams-for-apache-kafka-streams-api.html" class="xref page">Using Kafka Streams with OpenShift Streams for Apache Kafka</a></p>
+<p>Security with JWT RBAC</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="next"><a href="containers.html">Containers</a></span>
+  <span class="prev"><a href="helm.html">Helm</a></span>
+  <span class="next"><a href="springboot.html">Spring Boot on Kubernetes</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
