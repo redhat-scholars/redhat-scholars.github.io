@@ -1,0 +1,43 @@
+= Cloud Native Business Automation (Kogito)
+include::_attributes.adoc[]
+
+Learn the basics of link:https://kogito.kie.org/[Kogito,window=_blank] on Kubernetes as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::https://redhat-scholars.github.io/cloud-native-business-automation/cnba-tutorial/_images/logo.png[kogito logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/cloud-native-business-automation/[https://redhat-scholars.github.io/cloud-native-business-automation/,window=_blank]
+
+
+[#one]
+== Cloud Native Business Automation (Kogito)
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Java developers and hands-on architects
+|Beginner
+|===
+
+
+Kogito is a recent initiative under the KIE umbrella to leverage the battle-tested project Drools, jBPM, and OptaPlanner into a Cloud Native Environment. +
+It is designed from ground up to run at scale on cloud infrastructure. If you think about business automation think about the cloud as this is where your business logic lives these days. By taking advantage of the latest technologies (Quarkus, KNative, etc.), you get amazingly fast boot times and instant scaling on orchestration platforms like OpenShift.n  +
+ +
+
+
+What you will learn:
+
+* DMN and Business Automation concepts
+* Build Decision Service
+* Event Driven Decision Services
+* Kogito and Quarkus
+* Get started with business rules (DRL)
+
+
+
+
+
+
+
+

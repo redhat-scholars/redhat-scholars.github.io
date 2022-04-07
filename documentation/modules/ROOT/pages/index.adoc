@@ -62,6 +62,10 @@
 * xref:springboot.adoc[Spring Boot on Kubernetes]
 
 [.tile]
+.xref:kogito.adoc[Cloud Native Buiness Automation (Kogito)]
+* xref:kogito.adoc[Cloud Native Buiness Automation (Kogito)]
+
+[.tile]
 .xref:build-container-podman.adoc[Build a Container - Podman]
 * xref:build-container-podman.adoc[Build a Container - Podman]
 
@@ -79,3 +83,12 @@
 * xref:openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
 * xref:openshift-streams-for-apache-kafka-service-registry.adoc[Using OpenShift Service Registry with OpenShift Streams for Apache Kafka]
 * xref:openshift-streams-for-apache-kafka-streams-api.adoc[Using Kafka Streams with OpenShift Streams for Apache Kafka]
+
+[.tile]
+.OpenShift Data Science
+** xref:openshift-data-science-lp-recognition.adoc[Licence plate recognition]
+** xref:openshift-data-science-object-detection.adoc[Object Detection]
+
+[.tile]
+.Red Hat Advanced Cluster Security (Stackrox)
+** xref:stackrox-acs.adoc[Red Hat Advanced Cluster Security (Stackrox)]
