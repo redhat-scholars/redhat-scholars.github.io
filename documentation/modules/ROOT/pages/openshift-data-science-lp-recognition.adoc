@@ -1,4 +1,4 @@
-= Object Detection
+= Licence plate recognition
 include::_attributes.adoc[]
 
 Learn the basics of AI/ML into an OpenShift development workflow with link:https://developers.redhat.com/products/red-hat-openshift-data-science/[OpenShift Data Science Sandbox,window=_blank] in one module of 1 hour. +
@@ -6,12 +6,12 @@ Learn the basics of AI/ML into an OpenShift development workflow with link:https
 
 image::https://developers.redhat.com/sites/default/files/styles/large/public/RHODS-overview-image.png[ods logo,100,float="right"]
 
-*Tutorial*: link:https://redhat-scholars.github.io/rhods-od-workshop/[https://redhat-scholars.github.io/rhods-od-workshop/,window=_blank]
+*Tutorial*: link:https://redhat-scholars.github.io/rhods-lp-workshop/[https://redhat-scholars.github.io/rhods-lp-workshop/,window=_blank]
 
 
 
 [#one]
-== Object Detection
+== Licence plate recognition
 
 [cols="1,3,2"]  
 |===
@@ -26,7 +26,7 @@ In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data 
  +
 
 
-image::https://redhat-scholars.github.io/rhods-od-workshop/rhods-od-workshop/_images/notebooks/od_result.png[Object Detection workshop"]
+image::https://redhat-scholars.github.io/rhods-lp-workshop/rhods-lp-workshop/_images/car.png["License plate workshop"]
 
 What you will learn:
 
@@ -34,8 +34,7 @@ What you will learn:
 * Run the Licence plate recognition notebook
 * Package the model as an API
 * Packaging a Python Flask application as a container
-* Test the application on Kubernetes and access the webcam for live detection with pictures
-* Integrate Kafka for real-time live detection with video 
+* Test the application on Kubernetes
 
 
 
