@@ -1,0 +1,43 @@
+= Build a Container - Podman
+include::_attributes.adoc[]
+
+Learn the basics of link:https://www.redhat.com/en/topics/containers/whats-a-linux-container[Linux Containers,window=_blank], link:https://podman.io[Podman,window=_blank],link:https://buildah.io[Buildah,window=_blank] on link:https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[RHEL,window=_blank] as well as the more advanced principles in one module of 3 hour. +
+ +
+
+image::containerslogo.png[Containers logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/build-a-container/[https://redhat-scholars.github.io/build-a-container/,window=_blank]
+
+*Slides*: 
+
+
+[#one]
+== Build a Container - Podman
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|3 hour
+|Linux administrators interested in understanding and securing containers
+|Intermediate
+|===
+
+
+Kubernetes is the leading Container orchestration engine, but it’s complex and can be hard for organisations to find talent or properly evaluate solutions. Navigating the world of Kubernetes solutions is difficult without first understanding Containers. Not just containers but running containers in an enterprise compliant manner, that is securely and efficiently. This workshop seeks to help address that. +
+ +
+
+
+image::https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2019/02/Buildah-podman_Logo_16-9.png["Containers"]
+
+What you will learn:
+
+* Best practices in creating secure and containerised applications
+* Run, manage and deploy containers
+* Security exploits and how to address them
+* Container provenance
+* Hands on building a secure container
+
+
+
+
+

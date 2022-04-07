@@ -1,40 +1,42 @@
-* xref:00-containers.adoc[Containers]
+* xref:containers.adoc[Containers]
 
-* xref:01-kubernetes.adoc[Kubernetes]
-** xref:01-kubernetes.adoc#one[Kubernetes I]
-** xref:01-kubernetes.adoc#two[Kubernetes II]
-** xref:01-kubernetes.adoc#three[Kubernetes III]
+* xref:kubernetes.adoc[Kubernetes]
+** xref:kubernetes.adoc#one[Kubernetes I]
+** xref:kubernetes.adoc#two[Kubernetes II]
+** xref:kubernetes.adoc#three[Kubernetes III]
 
-* xref:02-quarkus.adoc[Quarkus]
-** xref:02-quarkus.adoc#one[Quarkus I]
-** xref:02-quarkus.adoc#two[Quarkus II]
+* xref:istio.adoc[Istio]
 
-* xref:03-istio.adoc[Istio]
+* xref:kafka.adoc[Kafka]
 
-* xref:04-kafka.adoc[Kafka]
+* xref:knative.adoc[Knative]
 
-* xref:05-knative.adoc[Knative]
+* xref:tekton.adoc[Tekton]
 
-* xref:06-tekton.adoc[Tekton]
+* xref:argocd.adoc[Argo CD]
 
-* xref:07-argocd.adoc[Argo CD]
+* xref:operators.adoc[Kubernetes Operators]
+** xref:operators.adoc#one[Kubernetes Operators I]
+** xref:operators.adoc#two[Kubernetes Operators II]
 
-* xref:08-operators.adoc[Kubernetes Operators]
-** xref:08-operators.adoc#one[Kubernetes Operators I]
-** xref:08-operators.adoc#two[Kubernetes Operators II]
+* xref:helm.adoc[Helm]
 
-* xref:09-helm.adoc[Helm]
+* xref:quarkus.adoc[Quarkus]
+** xref:quarkus.adoc#one[Quarkus I]
+** xref:quarkus.adoc#two[Quarkus II]
 
-* xref:10-springboot.adoc[Spring Boot on Kubernetes]
+* xref:springboot.adoc[Spring Boot on Kubernetes]
+
+* xref:build-container-podman.adoc[Build a Container - Podman]
 
 * OpenShift
-** xref:11-openshift.adoc[OpenShift for Developers]
+** xref:openshift.adoc[OpenShift for Developers]
 ** link:https://redhat-scholars.github.io/inner-loop-guide/[OpenShift Inner Loop]
 ** link:https://redhat-scholars.github.io/outer-loop-guide/[OpenShift Outer Loop]
-** xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
-** xref:17-openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
+** xref:openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
+** xref:openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
 
 * OpenShift Streams for Apache Kafka
-** xref:14-openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
-** xref:15-openshift-streams-for-apache-kafka-service-registry.adoc[Using OpenShift Service Registry with OpenShift Streams for Apache Kafka]
-** xref:16-openshift-streams-for-apache-kafka-streams-api.adoc[Using Kafka Streams with OpenShift Streams for Apache Kafka]
+** xref:openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
+** xref:openshift-streams-for-apache-kafka-service-registry.adoc[Using OpenShift Service Registry with OpenShift Streams for Apache Kafka]
+** xref:openshift-streams-for-apache-kafka-streams-api.adoc[Using Kafka Streams with OpenShift Streams for Apache Kafka]
