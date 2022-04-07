@@ -1,0 +1,55 @@
+= Red Hat Advanced Cluster Security (Stackrox)
+include::_attributes.adoc[]
+
+Learn the basics of link:https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes[Red Hat Advanced Cluster Security,window=_blank] as the more advanced principles in one module of 1 hour. +
+ +
+
+image::https://redhat-scholars.github.io/acs-workshop/acs-workshop/_images/acs-logo.svg[helm logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/acs-workshop/[https://redhat-scholars.github.io/acs-workshop/,window=_blank]
+
+*Slides*: 
+
+
+[#one]
+== Red Hat Advanced Cluster Security (Stackrox)
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Ops and Security teams that want to learn Kubernetes multi-cluster security
+|Beginner
+|===
+
+
+Red Hat Advanced Cluster Security for Kubernetes (or ACS) provides the tools and capabilities to address the security needs of a cloud-native development approach on Kubernetes.
+
+The ACS solution offers visibility into the security of your cluster, vulnerability management, and security compliance through auditing, network segmentation awareness and configuration, security risk profiling, security-related configuration management, threat detection, and incident response. In addition, ACS grants an ability to pull the actions from that tooling deep into the application code development process through APIs. +
+ +
+
+
+image::https://redhat-scholars.github.io/acs-workshop/acs-workshop/_images/cicd/01-devsecops_pipeline.png["DevSecOps Pipelines"]
+
+What you will learn:
+
+* ACS Overview
+* Vulnerability Management
+* Risk
+* Network Graph
+* Violations
+* Compliance
+* Configuration Management
+* System Policies
+* ACS Integrations
+* ACS Secure Cluster Management
+* DevSecOps Pipelines
+* ACS API and CLI
+
+
+
+
+
+
+
+

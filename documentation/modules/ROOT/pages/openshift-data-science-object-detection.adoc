@@ -1,0 +1,45 @@
+= Licence plate recognition
+include::_attributes.adoc[]
+
+Learn the basics of AI/ML into an OpenShift development workflow with link:https://developers.redhat.com/products/red-hat-openshift-data-science/[OpenShift Data Science Sandbox,window=_blank] in one module of 1 hour. +
+ +
+
+image::https://developers.redhat.com/sites/default/files/styles/large/public/RHODS-overview-image.png[ods logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/rhods-lp-workshop/[https://redhat-scholars.github.io/rhods-lp-workshop/,window=_blank]
+
+
+
+[#one]
+== Licence plate recognition
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Data Scientists that want to work on Kubernetes
+|Beginner
+|===
+
+
+In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science to recognize licence plates in car pictures, and extract the number from this plate. +
+ +
+
+
+image::https://redhat-scholars.github.io/rhods-lp-workshop/rhods-lp-workshop/_images/car.png["License plate workshop"]
+
+What you will learn:
+
+* Starting a Jupyter environment on OpenShift Data Science
+* Run the Licence plate recognition notebook
+* Package the model as an API
+* Packaging a Python Flask application as a container
+* Test the application on Kubernetes
+
+
+
+
+
+
+
+
