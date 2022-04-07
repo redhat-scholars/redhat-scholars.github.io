@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Istio :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/istio.html">
-    <link rel="prev" href="kubernetes.html">
-    <link rel="next" href="kafka.html">
+    <title>Cloud Native Business Automation (Kogito) :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/kogito.html">
+    <link rel="prev" href="springboot.html">
+    <link rel="next" href="build-container-podman.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -69,7 +69,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="istio.html">Istio</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -114,7 +114,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="springboot.html">Spring Boot on Kubernetes</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="kogito.html">Cloud Native Buiness Automation (Kogito)</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -192,35 +192,32 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="istio.html">Istio</a></li>
+    <li><a href="kogito.html">Cloud Native Buiness Automation (Kogito)</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/istio.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/kogito.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Istio</h1>
+<h1 class="page">Cloud Native Business Automation (Kogito)</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://istio.io" target="_blank" rel="noopener">Istio</a> as well as the more advanced principles in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://kogito.kie.org/" target="_blank" rel="noopener">Kogito</a> on Kubernetes as well as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/istiologo.png" alt="Istio logo" width="100">
+<img src="https://redhat-scholars.github.io/cloud-native-business-automation/cnba-tutorial/_images/logo.png" alt="kogito logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/istio-tutorial">dn.dev/istio-tutorial</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/istiomaster">dn.dev/istio</a></p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/cloud-native-business-automation/" target="_blank" rel="noopener">https://redhat-scholars.github.io/cloud-native-business-automation/</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Istio</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Cloud Native Business Automation (Kogito)</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -236,19 +233,15 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For Kubernetes-experienced developers</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Service mesh, in general, helps developers solve typical problems they find when moving to cloud-native infrastructure and building applications out of microservices. Some of these challenges include how to consistently monitor and collect statistics, tracing, and other telemetry; how to add resiliency in the face of unexpected failure; how to do powerful feature routing (i.e., canary releases and shadowing traffic); and much more, like securing your services correctly. In this session, we&#8217;ll show you how to take advantage of service mesh capabilities so you can start using them right after the session.<br>
+<p>Kogito is a recent initiative under the KIE umbrella to leverage the battle-tested project Drools, jBPM, and OptaPlanner into a Cloud Native Environment.<br>
+It is designed from ground up to run at scale on cloud infrastructure. If you think about business automation think about the cloud as this is where your business logic lives these days. By taking advantage of the latest technologies (Quarkus, KNative, etc.), you get amazingly fast boot times and instant scaling on orchestration platforms like OpenShift.n <br>
 <br></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/istio1.png" alt="Istio">
-</div>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
@@ -256,33 +249,27 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Why microservices and the service mesh?</p>
+<p>DMN and Business Automation concepts</p>
 </li>
 <li>
-<p>Installation and setup</p>
+<p>Build Decision Service</p>
 </li>
 <li>
-<p>Observability</p>
+<p>Event Driven Decision Services</p>
 </li>
 <li>
-<p>Traffic shaping</p>
+<p>Kogito and Quarkus</p>
 </li>
 <li>
-<p>Smart dark canaries</p>
-</li>
-<li>
-<p>Resiliency</p>
-</li>
-<li>
-<p>Security</p>
+<p>Get started with business rules (DRL)</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="kubernetes.html">Kubernetes</a></span>
-  <span class="next"><a href="kafka.html">Kafka</a></span>
+  <span class="prev"><a href="springboot.html">Spring Boot on Kubernetes</a></span>
+  <span class="next"><a href="build-container-podman.html">Build a Container - Podman</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
