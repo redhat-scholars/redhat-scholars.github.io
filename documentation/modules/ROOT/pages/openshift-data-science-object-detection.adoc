@@ -22,8 +22,7 @@ image::https://developers.redhat.com/sites/default/files/styles/large/public/RHO
 |===
 
 
-In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science and use an object detection model in several different ways.
- +
+In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science and use an object detection model in several different ways.+
 
 
 image::https://redhat-scholars.github.io/rhods-od-workshop/rhods-od-workshop/_images/notebooks/od_result.png[Object Detection workshop"]
