@@ -27,13 +27,12 @@
 
 * xref:10-springboot.adoc[Spring Boot on Kubernetes]
 
-* xref:11-openshift.adoc[OpenShift for Developers]
-
-* OpenShift Inner & Outer Loop Workshops
+* OpenShift
+** xref:11-openshift.adoc[OpenShift for Developers]
 ** link:https://redhat-scholars.github.io/inner-loop-guide/[OpenShift Inner Loop]
 ** link:https://redhat-scholars.github.io/outer-loop-guide/[OpenShift Outer Loop]
-
-* xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
+** xref:13-openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
+** xref:17-openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
 
 * OpenShift Streams for Apache Kafka
 ** xref:14-openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
