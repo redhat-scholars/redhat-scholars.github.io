@@ -5,7 +5,7 @@
 [.text-center.strong]
 == Cloud Native workshops and tutorials
 
-* hour sessions on cloud native technologies delivered by Red Hat Developer Advocates
+* Sessions on cloud native technologies delivered by Red Hat Developer Advocates
 * Ready to use content for running them yourself on Kubernetes and OpenShift
 * Also part of DevNation Deep Dives link:https://developers.redhat.com/devnation/upcoming[Public schedule,window=_blank]
 
