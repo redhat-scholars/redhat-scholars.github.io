@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>OpenShift for Developers :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift.html">
-    <link rel="prev" href="build-container-podman.html">
-    <link rel="next" href="openshift-java-inner-loop.html">
+    <title>Red Hat Advanced Cluster Security (Stackrox) :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/stackrox-acs.html">
+    <link rel="prev" href="openshift-data-science-object-detection.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -121,7 +120,7 @@
     <button class="nav-item-toggle"></button>
     <span class="nav-text">OpenShift</span>
 <ul class="nav-list">
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift.html">OpenShift for Developers</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -169,7 +168,7 @@
     <button class="nav-item-toggle"></button>
     <span class="nav-text">Red Hat Advanced Cluster Security (Stackrox)</span>
 <ul class="nav-list">
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="stackrox-acs.html">Red Hat Advanced Cluster Security (Stackrox)</a>
   </li>
 </ul>
@@ -189,36 +188,36 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li>OpenShift</li>
-    <li><a href="openshift.html">OpenShift for Developers</a></li>
+    <li>Red Hat Advanced Cluster Security (Stackrox)</li>
+    <li><a href="stackrox-acs.html">Red Hat Advanced Cluster Security (Stackrox)</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/stackrox-acs.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">OpenShift for Developers</h1>
+<h1 class="page">Red Hat Advanced Cluster Security (Stackrox)</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://openshift.com/" target="_blank" rel="noopener">OpenShift</a> and Kubernetes as well as the more advanced principles in one module of 1.5 hour.<br>
+<p>Learn the basics of <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/advanced-cluster-security-kubernetes" target="_blank" rel="noopener">Red Hat Advanced Cluster Security</a> as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/openshiftlogo.png" alt="helm logo" width="100">
+<img src="https://redhat-scholars.github.io/acs-workshop/acs-workshop/_images/acs-logo.svg" alt="helm logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/openshift-tutorial" target="_blank" rel="noopener">dn.dev/openshift-tutorial</a></p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/acs-workshop/" target="_blank" rel="noopener">https://redhat-scholars.github.io/acs-workshop/</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/openshift-workshop" target="_blank" rel="noopener">dn.dev/openshift-workshop</a></p>
+<p><strong>Slides</strong>:</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>OpenShift for Developers</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Red Hat Advanced Cluster Security (Stackrox)</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -233,19 +232,22 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.5 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to learn OpenShift and Kubernetes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ops and Security teams that want to learn Kubernetes multi-cluster security</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Application delivery teams are under ever-growing pressure to deliver more capabilities in their apps and APIs. Regardless of your monolith, microservices, or event-driven architecture ambitions - Linux containers, Kubernetes orchestration, and OpenShift Dev &amp; Ops productivity enhancements will change the way you build &amp; deliver better software, faster.<br>
+<p>Red Hat Advanced Cluster Security for Kubernetes (or ACS) provides the tools and capabilities to address the security needs of a cloud-native development approach on Kubernetes.</p>
+</div>
+<div class="paragraph">
+<p>The ACS solution offers visibility into the security of your cluster, vulnerability management, and security compliance through auditing, network segmentation awareness and configuration, security risk profiling, security-related configuration management, threat detection, and incident response. In addition, ACS grants an ability to pull the actions from that tooling deep into the application code development process through APIs.<br>
 <br></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="_images/openshift1.png" alt="OpenShift">
+<img src="https://redhat-scholars.github.io/acs-workshop/acs-workshop/_images/cicd/01-devsecops_pipeline.png" alt="DevSecOps Pipelines">
 </div>
 </div>
 <div class="paragraph">
@@ -254,48 +256,47 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Using the OpenShift command line client and web console.</p>
+<p>ACS Overview</p>
 </li>
 <li>
-<p>Deploying an application using a pre-existing container image.</p>
+<p>Vulnerability Management</p>
 </li>
 <li>
-<p>Working with application labels to identify component parts.</p>
+<p>Risk</p>
 </li>
 <li>
-<p>Scaling up your application in order to handle web traffic.</p>
+<p>Network Graph</p>
 </li>
 <li>
-<p>Exposing your application to users outside of the cluster.</p>
+<p>Violations</p>
 </li>
 <li>
-<p>Viewing and working with logs generated by your application.</p>
+<p>Compliance</p>
 </li>
 <li>
-<p>Accessing your application container and interacting with it.</p>
+<p>Configuration Management</p>
 </li>
 <li>
-<p>Giving access to other users to collaborate on your application.</p>
+<p>System Policies</p>
 </li>
 <li>
-<p>Deploying an application from source code in a Git repository.</p>
+<p>ACS Integrations</p>
 </li>
 <li>
-<p>Deploying a database from the OpenShift developer catalog.</p>
+<p>ACS Secure Cluster Management</p>
 </li>
 <li>
-<p>Configuring an application so it can access a database.</p>
+<p>DevSecOps Pipelines</p>
 </li>
 <li>
-<p>Setting up web hooks to enable automated application builds.</p>
+<p>ACS API and CLI</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="build-container-podman.html">Build a Container - Podman</a></span>
-  <span class="next"><a href="openshift-java-inner-loop.html">OpenShift Java Inner Loop Workshop</a></span>
+  <span class="prev"><a href="openshift-data-science-object-detection.html">Object Detection</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
