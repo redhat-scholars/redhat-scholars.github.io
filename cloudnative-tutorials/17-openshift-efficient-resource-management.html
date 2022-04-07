@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>OpenShift Inner &amp; Outer Loops :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/12-openshift-inner-outer-loop.html">
+    <title>Efficient Resource Management with OpenShift :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/17-openshift-efficient-resource-management.html">
+    <link rel="prev" href="13-openshift-java-inner-loop.html">
+    <link rel="next" href="14-openshift-streams-for-apache-kafka.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -128,7 +130,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="13-openshift-java-inner-loop.html">OpenShift Java Inner Loop Workshop</a>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="17-openshift-efficient-resource-management.html">Efficient Resource Management with OpenShift</a>
   </li>
 </ul>
@@ -163,29 +165,36 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="12-openshift-inner-outer-loop.html">OpenShift Inner &amp; Outer Loops</a></li>
+    <li>OpenShift</li>
+    <li><a href="17-openshift-efficient-resource-management.html">Efficient Resource Management with OpenShift</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/12-openshift-inner-outer-loop.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/17-openshift-efficient-resource-management.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">OpenShift Inner &amp; Outer Loops</h1>
+<h1 class="page">Efficient Resource Management with OpenShift</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This immersive workshop will put you in the Cloud Native world as a Developer: code, run and deploy modern applications on OpenShift using rich and advanced development services.<br>
+<p>Let’s explore best practices and useful settings to manage application’s resources in an OpenShift <a href="https://openshift.com/" target="_blank" rel="noopener">OpenShift</a> cluster in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/openshiftlogo.png" alt="OpenShift logo" width="100">
+<img src="_images/openshiftlogo.png" alt="openshift logo" width="100">
 </div>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/openshift-practices-tutorial" target="_blank" rel="noopener">dn.dev/openshift-practices-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://dn.dev/openshift-dev-practices" target="_blank" rel="noopener">dn.dev/openshift-dev-practices</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Inner Loop</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Efficient Resource Management with OpenShift</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -200,74 +209,58 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.5 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to learn OpenShift and Kubernetes</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to optimize OpenShift and Kubernetes resources usage.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>The goal of this hands-workshop is to provide a Developer Experience through the Inner Loop using Cloud Native Technologies.<br>
+<p>Let’s explore best practices and useful settings to manage application’s resources in an OpenShift cluster. Since the load of cluster usage may increase rapidly due to traffic load and the amount of applications deployed, it’s better to set up resource quotas to keep the workloads running smoothly.<br>
 <br></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://redhat-scholars.github.io/inner-loop-guide/inner-loop/6.0/_images/inner-loop.png" alt="OpenShift Inner Loop" width="300">
+<img src="https://redhat-scholars.github.io/openshift-apps-resource-management/openshift-apps-resource-management/_images/os-overview-image.png" alt="OpenShift">
 </div>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
 </div>
-<div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/inner-loop-guide/" target="_blank" rel="noopener">https://redhat-scholars.github.io/inner-loop-guide/</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://docs.google.com/presentation/d/1F-P0DxtfsOZ6rYq5Fe213qb3AoxgebFB7aMCsGlS1kE/edit?usp=sharing" target="_blank" rel="noopener">Cloud Native Inner Loop</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="two"><a class="anchor" href="#two"></a>Outer Loop</h2>
-<div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 16.6666%;">
-<col style="width: 50%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Duration</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Audience</strong></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1.5 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to learn OpenShift and Kubernetes</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
-</tr>
-</tbody>
-</table>
-<div class="paragraph">
-<p>This immersive workshop will put you in the Cloud Native world as a Developer: Promote applications to the different environments (QA, staging and production) on OpenShift using rich and advanced development services.<br>
-<br></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://redhat-scholars.github.io/outer-loop-guide/outer-loop/6.0/_images/outer-loop.png" alt="OpenShift Outer Loop" width="300">
-</div>
-</div>
-<div class="paragraph">
-<p>What you will learn:</p>
-</div>
-<div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/outer-loop-guide/" target="_blank" rel="noopener">https://redhat-scholars.github.io/outer-loop-guide/</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://docs.google.com/presentation/d/10itH6fOLJqyvy2clRUu01_tsQvQOzBpGFLZIETgwJgA/edit?usp=sharing" target="_blank" rel="noopener">Cloud Native Inner Loop</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Bootstrap project</p>
+</li>
+<li>
+<p>Adapt configurations</p>
+</li>
+<li>
+<p>Define custom health checks</p>
+</li>
+<li>
+<p>Deploy to OpenShift</p>
+</li>
+<li>
+<p>Adjust resource quotas</p>
+</li>
+<li>
+<p>Test configurations</p>
+</li>
+<li>
+<p>Tailor metrics</p>
+</li>
+<li>
+<p>Sizing resource limits</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
+<nav class="pagination">
+  <span class="prev"><a href="13-openshift-java-inner-loop.html">OpenShift Java Inner Loop Workshop</a></span>
+  <span class="next"><a href="14-openshift-streams-for-apache-kafka.html">Introduction to OpenShift Streams for Apache Kafka</a></span>
+</nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
