@@ -22,7 +22,7 @@ image::https://developers.redhat.com/sites/default/files/styles/large/public/RHO
 |===
 
 
-In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science to recognize licence plates in car pictures, and extract the number from this plate. +
+In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science and use an object detection model in several different ways.
  +
 
 
