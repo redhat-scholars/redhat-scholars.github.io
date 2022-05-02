@@ -1,7 +1,7 @@
 = Cloud Native Business Automation (Kogito)
 include::_attributes.adoc[]
 
-Learn the basics of link:https://kogito.kie.org/[Kogito,window=_blank] on Kubernetes as well as the more advanced principles in one module of 1 hour. +
+Learn the basics of business automation with link:https://kogito.kie.org/[Kogito,window=_blank] with Quarkus and Kubernetes as well as the more advanced principles in one module of 2 hours. +
  +
 
 image::https://redhat-scholars.github.io/cloud-native-business-automation/cnba-tutorial/_images/logo.png[kogito logo,100,float="right"]
@@ -12,10 +12,10 @@ image::https://redhat-scholars.github.io/cloud-native-business-automation/cnba-t
 [#one]
 == Cloud Native Business Automation (Kogito)
 
-[cols="1,3,2"]  
+[cols="1,3,2"]
 |===
 | *Duration* | *Audience* | *Level*
-|1 hour
+|2 hours
 |Java developers and hands-on architects
 |Beginner
 |===
@@ -28,11 +28,12 @@ It is designed from ground up to run at scale on cloud infrastructure. If you th
 
 What you will learn:
 
-* DMN and Business Automation concepts
-* Build Decision Service
-* Event Driven Decision Services
-* Kogito and Quarkus
-* Get started with business rules (DRL)
+* Decision automation concepts using Kogito and Quarkus
+* How to build decision services from scratch
+* How to create event driven decision services
+* Basics to advanced of decision modeling with DMN
+* How to deploy decision services on the cloud
+* Business rules automation using DRL and the new Rule Unit concept
 
 
 
