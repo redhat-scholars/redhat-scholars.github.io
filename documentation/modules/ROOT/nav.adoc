@@ -27,7 +27,7 @@
 
 * xref:springboot.adoc[Spring Boot on Kubernetes]
 
-* xref:kogito.adoc[Cloud Native Buiness Automation (Kogito)]
+* xref:kogito.adoc[Cloud Native Business Automation (Kogito)]
 
 * xref:build-container-podman.adoc[Build a Container - Podman]
 
