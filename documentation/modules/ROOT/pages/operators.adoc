@@ -6,9 +6,7 @@ Learn the basics of link:https://kubernetes.io/docs/concepts/extend-kubernetes/o
 
 image::operatorslogo.png[operators logo,100,float="right"]
 
-*Tutorial*: link:https://dn.dev/operators-tutorial[dn.dev/operators-tutorial]
-
-*Slides*: link:https://dn.dev/operatorsmaster[dn.dev/operators]
+*Tutorial*: link:https://redhat-scholars.github.io/operators-sdk-tutorial/[https://redhat-scholars.github.io/operators-sdk-tutorial/]
 
 
 [#one]
@@ -39,6 +37,9 @@ What you will learn:
 * How to build an operator from an existing Ansible playbook
 
 
+*Slides*: link:dn.dev/operatorsdk1
+[dn.dev/operatorsdk1]
+
 
 [#two]
 == Kubernetes Operators II
@@ -67,6 +68,7 @@ What you will learn:
 * How to write your Operator in Java with Quarkus
 
 
-
+*Slides*: link:dn.dev/operatorsdk2
+[dn.dev/operatorsdk2]
 
 
