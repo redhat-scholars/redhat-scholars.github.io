@@ -6,7 +6,7 @@ Learn the basics of link:https://kubernetes.io/docs/concepts/extend-kubernetes/o
 
 image::operatorslogo.png[operators logo,100,float="right"]
 
-*Tutorial*: link:https://redhat-scholars.github.io/operators-sdk-tutorial/[https://redhat-scholars.github.io/operators-sdk-tutorial/]
+*Tutorial*: link:https://redhat-scholars.github.io/operators-sdk-tutorial/[https://redhat-scholars.github.io/operators-sdk-tutorial,window=_blank]
 
 
 [#one]
@@ -38,7 +38,7 @@ What you will learn:
 
 
 *Slides*: link:dn.dev/operatorsdk1
-[dn.dev/operatorsdk1]
+[dn.dev/operatorsdk1,window=_blank]
 
 
 [#two]
@@ -69,6 +69,6 @@ What you will learn:
 
 
 *Slides*: link:dn.dev/operatorsdk2
-[dn.dev/operatorsdk2]
+[dn.dev/operatorsdk2,window=_blank]
 
 
