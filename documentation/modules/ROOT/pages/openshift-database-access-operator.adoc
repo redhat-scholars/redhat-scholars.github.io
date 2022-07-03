@@ -1,0 +1,34 @@
+= Welcome to Red Hat OpenShift Database Access Operator
+include::_attributes.adoc[]
+
+Explore and learn Red Hat OpenShift Database Access Operator by performing installation of the Operator, configuration of managed databases via RHODA, and connect to a Mongo Atlas Database Instance from a nodejs application called Pacman running on OpenShift.
+
+
+*Tutorial*: link:https://redhat-scholars.github.io/rhoda-pacman-workshop[https://redhat-scholars.github.io/rhoda-pacman-workshop,window=_blank]
+
+{nbsp} +
+
+[#one]
+== Connecting Applications to DBaaS using RHODA
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1.5 hours
+|Developers who would like to connect applications to managed databases while deployed in OpenShift
+|Intermediate
+|===
+
+In this tutorial you will go through :
+
+* A brief introduction to Database as service (DBaaS)
+
+* Using the OpenShift command line client and web console.
+
+* Installation of RHODA on OpenShift.
+
+* Deploying PAC-MAN application from source code in a Git repository.
+
+* Configuring a MongoAtlas Database instance from the OpenShift service catalog using RHODA.
+
+* Additional topics may also be covered relevant to the topic.
