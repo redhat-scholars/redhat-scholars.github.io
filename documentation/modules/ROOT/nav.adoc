@@ -37,6 +37,7 @@
 ** link:https://redhat-scholars.github.io/outer-loop-guide/[OpenShift Outer Loop]
 ** xref:openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
 ** xref:openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
+** xref:openshift-database-access-operator.adoc[Connecting Applications to DBaaS using RHODA]
 
 * OpenShift Streams for Apache Kafka
 ** xref:openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
