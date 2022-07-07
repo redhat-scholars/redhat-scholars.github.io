@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Using the Kafka Streams API with OpenShift Streams for Apache Kafka :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-streams-for-apache-kafka-streams-api.html">
-    <link rel="prev" href="openshift-streams-for-apache-kafka-service-registry.html">
-    <link rel="next" href="openshift-data-science-lp-recognition.html">
+    <title>Welcome to Red Hat OpenShift Database Access Operator :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-database-access-operator.html">
+    <link rel="prev" href="openshift-efficient-resource-management.html">
+    <link rel="next" href="openshift-streams-for-apache-kafka.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -139,7 +139,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-efficient-resource-management.html">Efficient Resource Management with OpenShift</a>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="openshift-database-access-operator.html">Connecting Applications to DBaaS using RHODA</a>
   </li>
 </ul>
@@ -154,7 +154,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-streams-for-apache-kafka-service-registry.html">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-streams-for-apache-kafka-streams-api.html">Using Kafka Streams with OpenShift Streams for Apache Kafka</a>
   </li>
 </ul>
@@ -195,27 +195,22 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li>OpenShift Streams for Apache Kafka</li>
-    <li><a href="openshift-streams-for-apache-kafka-streams-api.html">Using Kafka Streams with OpenShift Streams for Apache Kafka</a></li>
+    <li>OpenShift</li>
+    <li><a href="openshift-database-access-operator.html">Connecting Applications to DBaaS using RHODA</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-streams-for-apache-kafka-streams-api.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-database-access-operator.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Using the Kafka Streams API with OpenShift Streams for Apache Kafka</h1>
+<h1 class="page">Welcome to Red Hat OpenShift Database Access Operator</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn how to use Kafka Streams API to create realtime data processing pipelines without having to install, configure, run, and maintain infrastructure.</p>
-</div>
-<div class="imageblock right">
-<div class="content">
-<img src="_images/openshift-streams-logo.png" alt="OpenShift Streams logo" width="200">
-</div>
+<p>Explore and learn Red Hat OpenShift Database Access Operator by performing installation of the Operator, configuration of managed databases via RHODA, and connect to a Mongo Atlas Database Instance from a nodejs application called Pacman running on OpenShift.</p>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/managed-kafka-service-registry-workshop/" target="_blank" rel="noopener">https://redhat-scholars.github.io/managed-kafka-service-registry-workshop/</a></p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/rhoda-pacman-workshop" target="_blank" rel="noopener">https://redhat-scholars.github.io/rhoda-pacman-workshop</a></p>
 </div>
 <div class="paragraph">
 <p>&#160;<br></p>
@@ -223,7 +218,7 @@
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Introduction to OpenShift Streams for Apache Kafka</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Connecting Applications to DBaaS using RHODA</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -238,44 +233,42 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Developers that want to create realtime data processing pipelines using Apache Kafka.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.5 hours</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers who would like to connect applications to managed databases while deployed in OpenShift</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Kafka Streams provides a DSL (Domain Specific Language) that enables developers to create scalable data stream processing pipelines with minimal amounts of code. The DSL supports stateless operations such as filtering an existing topic to create a new topic containing records matching specific criteria. Stateful operations are also possible such as producing aggregates and joining records from multiple input streams.</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/openshift-streams-streams-api-architecture.png" alt="Tutorial Architecture">
-</div>
-</div>
-<div class="paragraph">
-<p>In this tutorial you will:</p>
+<p>In this tutorial you will go through :</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Create an instance of Red Hat OpenShift Streams for Apache Kafka.</p>
+<p>A brief introduction to Database as service (DBaaS)</p>
 </li>
 <li>
-<p>Create a service account to connect to the Kafka instance.</p>
+<p>Using the OpenShift command line client and web console.</p>
 </li>
 <li>
-<p>Deploy a Quarkus application that produces records into the Kafka instance.</p>
+<p>Installation of RHODA on OpenShift.</p>
 </li>
 <li>
-<p>Develop an application that uses the Kafka Streams DSL to produce records from existing records.</p>
+<p>Deploying PAC-MAN application from source code in a Git repository.</p>
+</li>
+<li>
+<p>Configuring a MongoAtlas Database instance from the OpenShift service catalog using RHODA.</p>
+</li>
+<li>
+<p>Additional topics may also be covered relevant to the topic.</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="openshift-streams-for-apache-kafka-service-registry.html">Using OpenShift Service Registry with OpenShift Streams for Apache Kafka</a></span>
-  <span class="next"><a href="openshift-data-science-lp-recognition.html">Licence plate recognition</a></span>
+  <span class="prev"><a href="openshift-efficient-resource-management.html">Efficient Resource Management with OpenShift</a></span>
+  <span class="next"><a href="openshift-streams-for-apache-kafka.html">Introduction to OpenShift Streams for Apache Kafka</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
