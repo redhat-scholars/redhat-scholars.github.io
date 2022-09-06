@@ -1,4 +1,4 @@
-= Licence plate recognition
+= License plate recognition
 include::_attributes.adoc[]
 
 Learn the basics of AI/ML into an OpenShift development workflow with link:https://developers.redhat.com/products/red-hat-openshift-data-science/[OpenShift Data Science Sandbox,window=_blank] in one module of 1 hour. +
@@ -22,7 +22,7 @@ image::https://developers.redhat.com/sites/default/files/styles/large/public/RHO
 |===
 
 
-In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science to recognize licence plates in car pictures, and extract the number from this plate. +
+In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science to recognize license plates in car pictures, and extract the number from this plate. +
  +
 
 
