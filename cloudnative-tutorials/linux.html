@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Object Detection :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-data-science-object-detection.html">
-    <link rel="prev" href="openshift-data-science-lp-recognition.html">
-    <link rel="next" href="stackrox-acs.html">
+    <title>Linux :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/linux.html">
+    <link rel="prev" href="index.html">
+    <link rel="next" href="containers.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -51,7 +51,7 @@
 <ul class="nav-list">
   <li class="nav-item" data-depth="0">
 <ul class="nav-list">
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="linux.html">Linux</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -169,7 +169,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-data-science-lp-recognition.html">Licence plate recognition</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-data-science-object-detection.html">Object Detection</a>
   </li>
 </ul>
@@ -198,33 +198,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li>OpenShift Data Science</li>
-    <li><a href="openshift-data-science-object-detection.html">Object Detection</a></li>
+    <li><a href="linux.html">Linux</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-data-science-object-detection.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/linux.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Object Detection</h1>
+<h1 class="page">Linux</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of AI/ML into an OpenShift development workflow with <a href="https://developers.redhat.com/products/red-hat-openshift-data-science/" target="_blank" rel="noopener">OpenShift Data Science Sandbox</a> in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" target="_blank" rel="noopener">Linux</a> as well as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="https://developers.redhat.com/sites/default/files/styles/large/public/RHODS-overview-image.png" alt="ods logo" width="100">
+<img src="_images/tux.png" alt="Tux logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/rhods-od-workshop/" target="_blank" rel="noopener">https://redhat-scholars.github.io/rhods-od-workshop/</a></p>
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/linux-tutorial" target="_blank" rel="noopener">dn.dev/linux-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="dn.dev/linux-workshop" target="_blank" rel="noopener">dn.dev/linux-workshop</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Object Detection</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Linux</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -240,17 +242,18 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Data Scientists that want to work on Kubernetes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers and system administrators</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science and use an object detection model in several different ways.+</p>
+<p>In today&#8217;s world, certain core technologies are critical to learn as they&#8217;re a foundation for much of what we use today. Linux is a prime example, and is a successful platform that enables virtualization, the cloud, containers, and so much more. Thus, having an understanding of Linux allows you to keep pace with changing technologies, and is the preferred operating system for almost all businesses. Let&#8217;s take a dive into the world of Linux!<br>
+<br></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://redhat-scholars.github.io/rhods-od-workshop/rhods-od-workshop/_images/notebooks/od_result.png" alt="Object Detection workshop&quot;">
+<img src="_images/linux.png" alt="Linux">
 </div>
 </div>
 <div class="paragraph">
@@ -259,30 +262,51 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Starting a Jupyter environment on OpenShift Data Science</p>
+<p>Linux basics &amp; RHEL installation</p>
 </li>
 <li>
-<p>Run the Licence plate recognition notebook</p>
+<p>Basic commands &amp; file operations</p>
 </li>
 <li>
-<p>Package the model as an API</p>
+<p>Installing packaged &amp; unpackaged software</p>
 </li>
 <li>
-<p>Packaging a Python Flask application as a container</p>
+<p>Systemd basics</p>
 </li>
 <li>
-<p>Test the application on Kubernetes and access the webcam for live detection with pictures</p>
+<p>RHEL User Interface: Cockpit</p>
 </li>
 <li>
-<p>Integrate Kafka for real-time live detection with video</p>
+<p>Permission &amp; ownerships</p>
+</li>
+<li>
+<p>Terminal multiplexer: tmux</p>
+</li>
+<li>
+<p>Code editor: nano</p>
+</li>
+<li>
+<p>Finding &amp; killing processes</p>
+</li>
+<li>
+<p>OS stats &amp; open ports</p>
+</li>
+<li>
+<p>Advanced SSH</p>
+</li>
+<li>
+<p>SELinux basics</p>
+</li>
+<li>
+<p>&amp; more!</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="openshift-data-science-lp-recognition.html">Licence plate recognition</a></span>
-  <span class="next"><a href="stackrox-acs.html">Red Hat Advanced Cluster Security (Stackrox)</a></span>
+  <span class="prev"><a href="index.html">Cloud Native Tutorials</a></span>
+  <span class="next"><a href="containers.html">Containers</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
