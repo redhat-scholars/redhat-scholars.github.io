@@ -8,7 +8,7 @@ image::tux.png[Tux logo,100,float="right"]
 
 *Tutorial*: link:https://dn.dev/linux-tutorial[dn.dev/linux-tutorial,window=_blank]
 
-*Slides*: link:https://dn.dev/linux[dn.dev/linux,window=_blank]
+*Slides*: link:dn.dev/linux-workshop[dn.dev/linux-workshop,window=_blank]
 
 
 [#one]
