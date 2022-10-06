@@ -1,0 +1,50 @@
+= Linux
+include::_attributes.adoc[]
+
+Learn the basics of link:https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[Linux,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::tux.png[Tux logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/linux-tutorial[dn.dev/linux-tutorial,window=_blank]
+
+*Slides*: link:dn.dev/linux-workshop[dn.dev/linux-workshop,window=_blank]
+
+
+[#one]
+== Linux
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers and system administrators
+|Beginner
+|===
+
+In today's world, certain core technologies are critical to learn as they're a foundation for much of what we use today. Linux is a prime example, and is a successful platform that enables virtualization, the cloud, containers, and so much more. Thus, having an understanding of Linux allows you to keep pace with changing technologies, and is the preferred operating system for almost all businesses. Let's take a dive into the world of Linux! +
+ +
+
+
+image::linux.png["Linux"]
+
+What you will learn:
+
+* Linux basics & RHEL installation
+* Basic commands & file operations
+* Installing packaged & unpackaged software
+* Systemd basics
+* RHEL User Interface: Cockpit
+* Permission & ownerships
+* Terminal multiplexer: tmux
+* Code editor: nano
+* Finding & killing processes
+* OS stats & open ports
+* Advanced SSH
+* SELinux basics
+* & more!
+
+
+
+
+
