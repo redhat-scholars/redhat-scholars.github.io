@@ -1,0 +1,32 @@
+= OpenShift Serverless Logic
+include::_attributes.adoc[]
+
+Learn the basics of OpenShift Serverless Logic
+
+image::https://redhat-scholars.github.io/serverless-workflow/osl/_images/serverless.png[serverless logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/serverless-workflow[https://redhat-scholars.github.io/serverless-workflow,window=_blank]
+
+
+[#one]
+== OpenShift Serverless Logic Tutorial
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|2 hours
+|Java developers and hands-on architects
+|Beginner
+|===
+
+link:https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless[OpenShift Serverless] means focusing on the business logic regarderless of servers!
+
+link:https://openshift-knative.github.io/docs/docs/latest/index.html[OpenShift Serverless Logic] is in a Developer Preview phase. One of the first capabilities that will be released is the *workflow engine* which helps developers to tackle complex microservices orchestration problems.
+
+
+What you will learn:
+
+* MicroServices Orchestration
+* Serverless Workflow
+* CloudEvents
+* Develop workflows leveraging Quarkus
