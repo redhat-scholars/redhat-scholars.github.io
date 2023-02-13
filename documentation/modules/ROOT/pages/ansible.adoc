@@ -4,6 +4,8 @@ include::_attributes.adoc[]
 Learn the basics of link:https://www.ansible.com/[Ansible,window=_blank] as well as the more advanced principles in one module of 1 hour. +
  +
 
+image::ansiblelogo.png[Ansible logo,100,float="right"]
+
 *Tutorial*: link:https://redhat-scholars.github.io/ansible-tutorial[dn.dev/ansible-tutorial]
 
 *Slides*: link:https://docs.google.com/presentation/d/16q_0aT-XP0kmibFjy5n6d5C45XNuOWIUIHGv5vFnBfk/[dn.dev/ansible]
