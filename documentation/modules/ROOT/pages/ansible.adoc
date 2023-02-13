@@ -1,0 +1,35 @@
+= Ansible
+include::_attributes.adoc[]
+
+Learn the basics of link:https://www.ansible.com/[Ansible,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+*Tutorial*: link:https://redhat-scholars.github.io/ansible-tutorial[dn.dev/ansible-tutorial]
+
+*Slides*: link:https://docs.google.com/presentation/d/16q_0aT-XP0kmibFjy5n6d5C45XNuOWIUIHGv5vFnBfk/[dn.dev/ansible]
+
+[#one]
+== Ansible
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Operators/DevOps
+|Intermediate
+|===
+
+Automation is something we should adopt at any price. This will help you deliver applications faster, easier, and in a reproducible way.
+In the case of Kubernetes, we’ve got a wide range of applications to automate the delivery of the applications and implement GitOps methodology, for example, using Tekton and/or ArgoCD. But not everything is Kubernetes; what happens if we want to get a similar level of automation when not using Kubernetes? Ansible is your IT automation solution for such cases.
+
+Join us to learn how to start using Ansible, learn several use cases you can use right after the session, and use GitOps when deploying to more cloud/traditional infrastructure.+
+ +
+
+What you will learn:
+
+* What is Ansible?
+* How Ansible works
+* Installing dependencies to a server
+* Bootstraping a custom application
+* Ansible Roles
+* Ansible Galaxy

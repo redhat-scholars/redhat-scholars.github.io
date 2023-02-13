@@ -1,5 +1,7 @@
 * xref:linux.adoc[Linux]
 
+* xref:ansible.adoc[Ansible]
+
 * xref:containers.adoc[Containers]
 
 * xref:kubernetes.adoc[Kubernetes]
