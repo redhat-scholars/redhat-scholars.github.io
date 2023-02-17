@@ -31,7 +31,7 @@
 
 * xref:springboot.adoc[Spring Boot on Kubernetes]
 
-* xref:kogito.adoc[Cloud Native Business Automation (Kogito)]
+* xref:openshift-serverless-logic.adoc[OpenShift Serverless Logic]
 
 * xref:build-container-podman.adoc[Build a Container - Podman]
 
