@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>OpenShift Java Inner Loop :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-java-inner-loop.html">
-    <link rel="prev" href="openshift.html">
-    <link rel="next" href="openshift-efficient-resource-management.html">
+    <title>OpenShift Serverless Logic :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-serverless-logic.html">
+    <link rel="prev" href="springboot.html">
+    <link rel="next" href="build-container-podman.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -120,7 +120,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="springboot.html">Spring Boot on Kubernetes</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="openshift-serverless-logic.html">OpenShift Serverless Logic</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -139,7 +139,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="https://redhat-scholars.github.io/outer-loop-guide/">OpenShift Outer Loop</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-java-inner-loop.html">OpenShift Java Inner Loop Workshop</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -201,36 +201,31 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li>OpenShift</li>
-    <li><a href="openshift-java-inner-loop.html">OpenShift Java Inner Loop Workshop</a></li>
+    <li><a href="openshift-serverless-logic.html">OpenShift Serverless Logic</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-java-inner-loop.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-serverless-logic.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">OpenShift Java Inner Loop</h1>
+<h1 class="page">OpenShift Serverless Logic</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of Spring Boot and Quarkus development with <a href="https://openshift.com/" target="_blank" rel="noopener">OpenShift</a> and Kubernetes as well as the more advanced principles in one module of 1 hour.<br>
-<br></p>
+<p>Learn the basics of OpenShift Serverless Logic</p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/openshiftlogo.png" alt="helm logo" width="100">
+<img src="https://redhat-scholars.github.io/serverless-workflow/osl/_images/serverless.png" alt="serverless logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/java-inner-loop-dev-guide" target="_blank" rel="noopener">https://redhat-scholars.github.io/java-inner-loop-dev-guide</a></p>
-</div>
-<div class="paragraph">
-<p><strong>Slides</strong>:</p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/serverless-workflow" target="_blank" rel="noopener">https://redhat-scholars.github.io/serverless-workflow</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>OpenShift Java Inner Loop</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>OpenShift Serverless Logic Tutorial</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -245,23 +240,17 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java Developers that want to develop with OpenShift and Kubernetes</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 hours</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>This tutorial provides you with a super-simple CRUD microservice (in two flavors: Spring Boot and Quarkus), FruitService, that implements the usual functions: create, update, delete, find all, etc. mapped to a table in a relational database.</p>
+<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless">OpenShift Serverless</a> means focusing on the business logic regarderless of servers!</p>
 </div>
 <div class="paragraph">
-<p>No need to code this time, the Java code is simple, it works and we have tested it against, H2, PostgreSQL and Oracle RDBMS.<br>
-<br></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://redhat-scholars.github.io/java-inner-loop-dev-guide/java-inner-loop-dev-guide/_images/inner-vs-outer-loop-extended.png" alt="OpenShift Inner Outer Loop" width="500">
-</div>
+<p><a href="https://openshift-knative.github.io/docs/docs/latest/index.html">OpenShift Serverless Logic</a> is in a Developer Preview phase. One of the first capabilities that will be released is the <strong>workflow engine</strong> which helps developers to tackle complex microservices orchestration problems.</p>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
@@ -269,27 +258,24 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Deploy the code against PostgreSQL directly from the command line using the JKube maven plugin</p>
+<p>MicroServices Orchestration</p>
 </li>
 <li>
-<p>You will also learn how JKube leverages Source to Image (S2I) to speed up the process of building container images inside OpenShift.</p>
+<p>Serverless Workflow</p>
 </li>
 <li>
-<p>You&#8217;ll find out how to do the same for Quarkus but this time using the Quarkus OpenShift plugin instead of JKube</p>
+<p>CloudEvents</p>
 </li>
 <li>
-<p>We will show you how to use Telepresence to speed up development iterations.</p>
-</li>
-<li>
-<p>Finally you&#8217;ll learn how to enable Remote Development Mode for your Quarkus project</p>
+<p>Develop workflows leveraging Quarkus</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="openshift.html">OpenShift for Developers</a></span>
-  <span class="next"><a href="openshift-efficient-resource-management.html">Efficient Resource Management with OpenShift</a></span>
+  <span class="prev"><a href="springboot.html">Spring Boot on Kubernetes</a></span>
+  <span class="next"><a href="build-container-podman.html">Build a Container - Podman</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
