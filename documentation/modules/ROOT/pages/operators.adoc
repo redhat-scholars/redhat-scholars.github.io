@@ -37,8 +37,7 @@ What you will learn:
 * How to build an operator from an existing Ansible playbook
 
 
-*Slides*: link:dn.dev/operatorsdk1
-[dn.dev/operatorsdk1,window=_blank]
+*Slides*: link:https://dn.dev/operatorsdk1[dn.dev/operatorsdk1,window=_blank]
 
 
 [#two]
@@ -68,7 +67,6 @@ What you will learn:
 * How to write your Operator in Java with Quarkus
 
 
-*Slides*: link:dn.dev/operatorsdk2
-[dn.dev/operatorsdk2,window=_blank]
+*Slides*: link:https://dn.dev/operatorsdk2[dn.dev/operatorsdk2,window=_blank]
 
 
