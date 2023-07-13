@@ -3,8 +3,8 @@
 * xref:ansible.adoc[Ansible]
 
 * xref:containers.adoc[Containers]
-** xref:kubernetes.adoc#one[Containers II]
-** xref:kubernetes.adoc#two[Containers II]
+** xref:containers.adoc#one[Containers II]
+** xref:containers.adoc#two[Containers II]
 
 * xref:kubernetes.adoc[Kubernetes]
 ** xref:kubernetes.adoc#one[Kubernetes I]
