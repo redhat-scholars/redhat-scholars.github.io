@@ -12,7 +12,7 @@ image::containerslogo.png[Containers logo,100,float="right"]
 
 
 [#one]
-== Containers
+== Containers I
 
 [cols="1,3,2"]  
 |===
@@ -43,6 +43,32 @@ What you will learn:
 * Mapping some host storage to your container
 * Managing images (pushing and pulling) and containers
 
+[#two]
+== Containers II
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers and Linux administrators
+|Intermediate
+|===
+
+
+When you're developing an application, there are different tools that you can use to manage your containers. In this session, we will take a deeper dive into the world of containers, focusing on Podman Desktop, Buildah, Skopeo, and Jib.
+With Podman Desktop and Buildah, you'll learn how to build, manage and run containers in a daemonless setup. Skopeo will show you how to inspect, sign, sync, and manage container images efficiently, while Jib can build optimized Docker and OCI images for your Java applications without a Docker daemon. +
+ +
+
+
+image::podman-desktop.png["Containers"]
+
+What you will learn:
+
+* Building and managing containers visually with Podman Desktop
+* Creating container images with Buildah
+* Managing and syncing container images with Skopeo
+* Building Docker and OCI images for Java applications with Jib
+* Understanding daemonless setup for containers & efficient image management without the need for Docker daemon
 
 
 
