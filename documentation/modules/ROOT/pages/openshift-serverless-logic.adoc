@@ -1,7 +1,7 @@
 = OpenShift Serverless Logic
 include::_attributes.adoc[]
 
-Learn the basics of OpenShift Serverless Logic
+Learn the basics of OpenShift Serverless Logic.
 
 image::https://redhat-scholars.github.io/serverless-workflow/osl/_images/serverless.png[serverless logo,100,float="right"]
 
