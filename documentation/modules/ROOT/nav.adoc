@@ -45,11 +45,6 @@
 ** xref:openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
 ** xref:openshift-database-access-operator.adoc[Connecting Applications to DBaaS using RHODA]
 
-* OpenShift Streams for Apache Kafka
-** xref:openshift-streams-for-apache-kafka.adoc[Introduction to OpenShift Streams for Apache Kafka]
-** xref:openshift-streams-for-apache-kafka-service-registry.adoc[Using OpenShift Service Registry with OpenShift Streams for Apache Kafka]
-** xref:openshift-streams-for-apache-kafka-streams-api.adoc[Using Kafka Streams with OpenShift Streams for Apache Kafka]
-
 * OpenShift Data Science
 ** xref:openshift-data-science-lp-recognition.adoc[Licence plate recognition]
 ** xref:openshift-data-science-object-detection.adoc[Object Detection]
