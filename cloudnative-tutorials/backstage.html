@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Kafka :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/kafka.html">
-    <link rel="prev" href="istio.html">
-    <link rel="next" href="knative.html">
+    <title>Backstage :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/backstage.html">
+    <link rel="prev" href="openshift-database-access-operator.html">
+    <link rel="next" href="openshift-data-science-lp-recognition.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -87,7 +87,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="istio.html">Istio</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="kafka.html">Kafka</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -159,7 +159,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="backstage.html">Backstage</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -198,35 +198,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="kafka.html">Kafka</a></li>
+    <li><a href="backstage.html">Backstage</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/kafka.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/backstage.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Kafka</h1>
+<h1 class="page">Backstage</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://kafka.apache.org/" target="_blank" rel="noopener">Apache Kafka</a> as well as the more advanced principles in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://backstage.io/" target="_blank" rel="noopener">Backstage</a> as well as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/kafkalogo.png" alt="Kafka logo" width="100">
+<img src="_images/backstage.png" alt="argocd logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://dn.dev/kafka-tutorial">dn.dev/kafka-tutorial</a></p>
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/backstage-tutorial" target="_blank" rel="noopener">dn.dev/backstage-tutorial</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Slides</strong>: <a href="https://dn.dev/kafkamaster">dn.dev/kafka</a></p>
+<p><strong>Slides</strong>: <a href="https://dn.dev/backstage-workshop" target="_blank" rel="noopener">dn.dev/backstage-workshop</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Kafka</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Backstage</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -242,19 +242,18 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">For Java developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For Kubernetes-experienced developers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Have you been dreaming of streaming? Apache Kafka has taken over the async messaging world and is now a required skill for every Java developer.  Stop using batch processes to analyze your data, and start doing it in real time with Kafka Streams.
-Be prepared to interact with other attendees and your CodeCaster on this journey that includes Apache Kafka &amp; AMQ Streams, tooling, terminology, concepts, and practical exercises of how you can apply, deploy, and use Kafka in your next cloud-native application architecture.<br>
+<p>Backstage is an open-source platform for building developer portals. It provides a centralized hub for managing software development and operations tasks, such as service discovery, documentation, and CI/CD pipelines. Backstage offers a range of features to help teams manage their software development and operations tasks, including a service catalog, documentation platform, CI/CD pipelines management, and a flexible plugin architecture that allows you to extend Backstage with custom functionality.<br>
 <br></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="_images/kafka1.png" alt="Kafka">
+<img src="_images/backstage.png" alt="Argo CD">
 </div>
 </div>
 <div class="paragraph">
@@ -263,33 +262,28 @@ Be prepared to interact with other attendees and your CodeCaster on this journey
 <div class="ulist">
 <ul>
 <li>
-<p>How to install Kafka for a Developer workstation</p>
+<p>Fundamentals of Backstage</p>
 </li>
 <li>
-<p>How to install Kafka in a Kubernetes cluster</p>
+<p>Service catalog: A centralized hub for discovering and managing services across your organization.</p>
 </li>
 <li>
-<p>Topics/Partitions</p>
+<p>CI/CD pipelines: A way to manage your CI/CD pipelines and deployments.</p>
 </li>
 <li>
-<p>Messages</p>
+<p>Plugin architecture: A flexible plugin architecture that allows you to extend Backstage with custom functionality.</p>
 </li>
 <li>
-<p>Producers/Consumers</p>
-</li>
-<li>
-<p>Kafka Streams</p>
-</li>
-<li>
-<p>Windowing</p>
+<p>Documentation: A platform for creating and managing documentation for your services.
+`</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="istio.html">Istio</a></span>
-  <span class="next"><a href="knative.html">Knative</a></span>
+  <span class="prev"><a href="openshift-database-access-operator.html">Connecting Applications to DBaaS using RHODA</a></span>
+  <span class="next"><a href="openshift-data-science-lp-recognition.html">Licence plate recognition</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
