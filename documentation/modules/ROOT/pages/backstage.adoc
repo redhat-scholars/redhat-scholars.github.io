@@ -1,0 +1,36 @@
+= Backstage
+include::_attributes.adoc[]
+
+Learn the basics of link:https://backstage.io/[Backstage,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::backstage.png[argocd logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/backstage-tutorial[dn.dev/backstage-tutorial,window=_blank]
+
+*Slides*: link:https://dn.dev/backstage-workshop[dn.dev/backstage-workshop,window=_blank]
+
+[#one]
+== Backstage
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Kubernetes-experienced developers
+|Intermediate
+|===
+
+Backstage is an open-source platform for building developer portals. It provides a centralized hub for managing software development and operations tasks, such as service discovery, documentation, and CI/CD pipelines. Backstage offers a range of features to help teams manage their software development and operations tasks, including a service catalog, documentation platform, CI/CD pipelines management, and a flexible plugin architecture that allows you to extend Backstage with custom functionality. +
+ +
+
+image::backstage.png["Argo CD"]
+
+What you will learn:
+
+* Fundamentals of Backstage
+* Service catalog: A centralized hub for discovering and managing services across your organization.
+* CI/CD pipelines: A way to manage your CI/CD pipelines and deployments.
+* Plugin architecture: A flexible plugin architecture that allows you to extend Backstage with custom functionality.
+* Documentation: A platform for creating and managing documentation for your services.
+`

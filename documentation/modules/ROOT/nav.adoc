@@ -45,6 +45,8 @@
 ** xref:openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
 ** xref:openshift-database-access-operator.adoc[Connecting Applications to DBaaS using RHODA]
 
+* xref:backstage.adoc[Backstage]
+
 * OpenShift Data Science
 ** xref:openshift-data-science-lp-recognition.adoc[Licence plate recognition]
 ** xref:openshift-data-science-object-detection.adoc[Object Detection]

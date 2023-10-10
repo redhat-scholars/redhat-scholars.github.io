@@ -26,9 +26,6 @@ image::springbootlogo.png[springboot logo,100,float="right"]
 Are you struggling to deploy and run your Spring Boot applications on Kubernetes? Then join us on this informative and helpful Deep Dive. We can all agree that Spring Boot is great, and you'll learn how to make the best of it when running on Kubernetes: from source code to container, to pod, to production  +
  +
 
-
-image::springboot1.png["springboot"]
-
 What you will learn:
 
 * The fundamentals of springboot charts
