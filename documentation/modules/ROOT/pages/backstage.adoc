@@ -24,7 +24,7 @@ image::backstage.png[argocd logo,100,float="right"]
 Backstage is an open-source platform for building developer portals. It provides a centralized hub for managing software development and operations tasks, such as service discovery, documentation, and CI/CD pipelines. Backstage offers a range of features to help teams manage their software development and operations tasks, including a service catalog, documentation platform, CI/CD pipelines management, and a flexible plugin architecture that allows you to extend Backstage with custom functionality. +
  +
 
-image::backstage.png["Argo CD"]
+image::backstage1.png["Backstage"]
 
 What you will learn:
 
