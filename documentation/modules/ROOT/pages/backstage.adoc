@@ -1,7 +1,7 @@
 = Backstage
 include::_attributes.adoc[]
 
-Learn the basics of link:https://backstage.io/[Backstage,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+Learn the basics of link:https://backstage.io/[Backstage,window=_blank] as well as the more advanced principles in one module of 2 hours. +
  +
 
 image::backstage.png[argocd logo,100,float="right"]
@@ -17,7 +17,7 @@ image::backstage.png[argocd logo,100,float="right"]
 |===
 | *Duration* | *Audience* | *Level*
 |1 hour
-|For Kubernetes-experienced developers
+|Platform Engineers and Developers
 |Intermediate
 |===
 
@@ -28,9 +28,10 @@ image::backstage1.png["Backstage"]
 
 What you will learn:
 
-* Fundamentals of Backstage
-* Service catalog: A centralized hub for discovering and managing services across your organization.
-* CI/CD pipelines: A way to manage your CI/CD pipelines and deployments.
-* Plugin architecture: A flexible plugin architecture that allows you to extend Backstage with custom functionality.
-* Documentation: A platform for creating and managing documentation for your services.
-`
+* Backstage, Project Janus, Developer Hub
+* Developer Onboarding
+* Golden Path Templates
+* Backstage Plugins
+* Creating new projects
+* Scaffolding projects with Pipelines and GitOps
+* Integrating IDE and Tools
