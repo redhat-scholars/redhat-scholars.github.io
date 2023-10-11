@@ -6,7 +6,9 @@ Learn the basics of AI/ML into an OpenShift development workflow with link:https
 
 image::https://developers.redhat.com/sites/default/files/styles/large/public/RHODS-overview-image.png[ods logo,100,float="right"]
 
-*Tutorial*: link:https://redhat-scholars.github.io/rhods-od-workshop/[https://redhat-scholars.github.io/rhods-od-workshop/,window=_blank]
+*Tutorial*: link:https://dn.dev/rhods-tutorial[dn.dev/rhods-tutorial,window=_blank]
+
+*Slides*: link:https://dn.dev/rhods-workshop[dn.dev/rhods-workshop,window=_blank]
 
 
 
