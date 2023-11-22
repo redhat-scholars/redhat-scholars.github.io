@@ -60,13 +60,36 @@ image::quarkus2.png["Quarkus II"]
 
 What you will learn:
 
-* Kafka and MicroProfile Reactive Messaging
 * Microservices architecture
 * Fault tolerance
 * Health checks
 * Metrics
-* Security with JWT RBAC
+
+[#three]
+== Quarkus III
+
+*Tutorial*: link:https://dn.dev/quarkus-tutorial[dn.dev/quarkus-tutorial]
+
+*Slides*: link:https://dn.dev/quarkusmaster3[dn.dev/quarkusmaster3]
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For developers and hands-on architects
+|Intermediate
+|===
+
+You have already learned to be superfast and supersmall with Quarkus: Subatomic, Subatomic Java and added some cloud-native Kubernetes capabilities; what’s next? Adding event-driven and reactive programming.
+Join this deep dive session to learn why it's crucial to adopt reactive programming, which benefits you obtain by using it, and how easy is to get started with Quarkus. You'll learn when you can get the benefits of reactive programming and how to use Quarkus to build an event-driven application. Upgrade your skills with us!
 
 
+image::quarkus2.png["Quarkus III"]
 
+
+What you will learn:
+
+* Reactive Programming with Quarkus and Mutiny
+* Developing Event-driven architectures
+* Integrating Quarkus with Kafka
 
