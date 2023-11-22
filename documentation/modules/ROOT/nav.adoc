@@ -30,6 +30,7 @@
 * xref:quarkus.adoc[Quarkus]
 ** xref:quarkus.adoc#one[Quarkus I]
 ** xref:quarkus.adoc#two[Quarkus II]
+** xref:quarkus.adoc#three[Quarkus III]
 
 * xref:springboot.adoc[Spring Boot on Kubernetes]
 
