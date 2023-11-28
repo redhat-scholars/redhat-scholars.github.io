@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Build a Container - Podman :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/build-container-podman.html">
-    <link rel="prev" href="openshift-serverless-logic.html">
-    <link rel="next" href="openshift.html">
+    <title>Debezium :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/debezium.html">
+    <link rel="prev" href="kafka.html">
+    <link rel="next" href="knative.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -90,12 +90,12 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="kafka.html">Kafka</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="debezium.html">Debezium</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="debezium.html#one">Debezium I</a>
+    <a class="nav-link" href="#one">Debezium I</a>
   </li>
 </ul>
   </li>
@@ -144,7 +144,7 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="openshift-serverless-logic.html">OpenShift Serverless Logic</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="1">
+  <li class="nav-item" data-depth="1">
     <a class="nav-link" href="build-container-podman.html">Build a Container - Podman</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -210,35 +210,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="build-container-podman.html">Build a Container - Podman</a></li>
+    <li><a href="debezium.html">Debezium</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/build-container-podman.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/debezium.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Build a Container - Podman</h1>
+<h1 class="page">Debezium</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://www.redhat.com/en/topics/containers/whats-a-linux-container" target="_blank" rel="noopener">Linux Containers</a>, <a href="https://podman.io" target="_blank" rel="noopener">Podman</a>,<a href="https://buildah.io" target="_blank" rel="noopener">Buildah</a> on <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" target="_blank" rel="noopener">RHEL</a> as well as the more advanced principles in one module of 3 hour.<br>
+<p>Learn the basics of change data capture with <a href="https://debezium.io" target="_blank" rel="noopener">Debezium</a> in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="_images/containerslogo.png" alt="Containers logo" width="100">
+<img src="_images/debeziumlogo.png" alt="Debezium logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/build-a-container/" target="_blank" rel="noopener">https://redhat-scholars.github.io/build-a-container/</a></p>
+<p><strong>Tutorial</strong>: <a href="https://dn.dev/debezium-tutorial" target="_blank" rel="noopener">dn.dev/debezium-tutorial</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Slides</strong>:</p>
+<p><strong>Slides</strong>: <a href="https://dn.dev/debezium" target="_blank" rel="noopener">dn.dev/debezium</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Build a Container - Podman</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Debezium I</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -253,19 +253,19 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">3 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Linux administrators interested in understanding and securing containers</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers and Architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Kubernetes is the leading Container orchestration engine, but it’s complex and can be hard for organisations to find talent or properly evaluate solutions. Navigating the world of Kubernetes solutions is difficult without first understanding Containers. Not just containers but running containers in an enterprise compliant manner, that is securely and efficiently. This workshop seeks to help address that.<br>
+<p>This tutorial helps you to get started with the open-source change data capture platform Debezium. You will learn about selected features and different ways, how Debezium let’s you build streaming data pipelines using popular relational and non-relational databases as data sources. Examples also show, how to stream captured change events to different sink systems, including but not limited to Apache Kafka.<br>
 <br></p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2019/02/Buildah-podman_Logo_16-9.png" alt="Containers">
+<img src="_images/debezium1.png" alt="Debezium 1">
 </div>
 </div>
 <div class="paragraph">
@@ -274,27 +274,33 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Best practices in creating secure and containerised applications</p>
+<p>The fundamentals about Debezium</p>
 </li>
 <li>
-<p>Run, manage and deploy containers</p>
+<p>Benefits of log-based change data capture (CDC)</p>
 </li>
 <li>
-<p>Security exploits and how to address them</p>
+<p>Databases which are supported by Debezium</p>
 </li>
 <li>
-<p>Container provenance</p>
+<p>3 ways to run / work with Debezium</p>
 </li>
 <li>
-<p>Hands on building a secure container</p>
+<p>Using Debezium&#8217;s PostgreSQL connector to publish database changes to Apache Kafka</p>
+</li>
+<li>
+<p>Running Debezium Server to set up a CDC pipeline between PostgreSQL and a web API endpoint</p>
+</li>
+<li>
+<p>Working with Debezium UI to configure and inspect a MySQL source connector</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="openshift-serverless-logic.html">OpenShift Serverless Logic</a></span>
-  <span class="next"><a href="openshift.html">OpenShift for Developers</a></span>
+  <span class="prev"><a href="kafka.html">Kafka</a></span>
+  <span class="next"><a href="knative.html">Knative</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
