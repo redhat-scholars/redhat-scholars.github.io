@@ -15,6 +15,9 @@
 
 * xref:kafka.adoc[Kafka]
 
+* xref:debezium.adoc[Debezium]
+** xref:debezium.adoc#one[Debezium I]
+
 * xref:knative.adoc[Knative]
 
 * xref:tekton.adoc[Tekton]
