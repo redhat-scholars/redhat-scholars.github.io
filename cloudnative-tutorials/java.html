@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>License plate recognition :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-data-science-lp-recognition.html">
-    <link rel="prev" href="backstage.html">
-    <link rel="next" href="openshift-data-science-object-detection.html">
+    <title>Updating to Latest Java LTS Version :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/java.html">
+    <link rel="prev" href="linux.html">
+    <link rel="next" href="ansible.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -54,12 +54,12 @@
   <li class="nav-item" data-depth="1">
     <a class="nav-link" href="linux.html">Linux</a>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="java.html">Java</a>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="java.html#one">Java Migration Path</a>
+    <a class="nav-link" href="#one">Java Migration Path</a>
   </li>
 </ul>
   </li>
@@ -187,7 +187,7 @@
     <button class="nav-item-toggle"></button>
     <span class="nav-text">OpenShift Data Science</span>
 <ul class="nav-list">
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-data-science-lp-recognition.html">Licence plate recognition</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -219,33 +219,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li>OpenShift Data Science</li>
-    <li><a href="openshift-data-science-lp-recognition.html">Licence plate recognition</a></li>
+    <li><a href="java.html">Java</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-data-science-lp-recognition.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/java.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">License plate recognition</h1>
+<h1 class="page">Updating to Latest Java LTS Version</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of AI/ML into an OpenShift development workflow with <a href="https://developers.redhat.com/products/red-hat-openshift-data-science/" target="_blank" rel="noopener">OpenShift Data Science Sandbox</a> in one module of 1 hour.<br>
+<p>Learn what&#8217;s new in the Java language  since Java 11.+
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="https://developers.redhat.com/sites/default/files/styles/large/public/RHODS-overview-image.png" alt="ods logo" width="100">
+<img src="_images/duke.png" alt="Duke logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/rhods-lp-workshop/" target="_blank" rel="noopener">https://redhat-scholars.github.io/rhods-lp-workshop/</a></p>
+<p><strong>Slides</strong>: <a href="https://docs.google.com/presentation/d/17QLKGKBpyuNC-stgD0QxRw2oBa4MsNUI5IM0wZHra10/edit?usp=sharing" target="_blank" rel="noopener">dn.dev/java-migration</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/java-migration/" target="_blank" rel="noopener">dn.dev/java-migration-tutorial</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Licence plate recognition</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Java Migration Path</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -261,19 +263,14 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Data Scientists that want to work on Kubernetes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>In this introductory workshop, you’ll learn how to use Red Hat OpenShift Data Science to recognize license plates in car pictures, and extract the number from this plate.<br>
+<p>Java is one of the most popular languages . In the past there was a new Java version every 2 or 3 years. Since 2017, Java has changed the release process, so now, we&#8217;ve got a new version every 6 months, being some of them LTS. Keeping the pace of the new features might be hard. In this deep dive we summarize from Java 11 the best features added to the platform, focusing on developers.<br>
 <br></p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="https://redhat-scholars.github.io/rhods-lp-workshop/rhods-lp-workshop/_images/car.png" alt="License plate workshop">
-</div>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
@@ -281,27 +278,18 @@
 <div class="ulist">
 <ul>
 <li>
-<p>Starting a Jupyter environment on OpenShift Data Science</p>
+<p>Java Release Cadence</p>
 </li>
 <li>
-<p>Run the Licence plate recognition notebook</p>
-</li>
-<li>
-<p>Package the model as an API</p>
-</li>
-<li>
-<p>Packaging a Python Flask application as a container</p>
-</li>
-<li>
-<p>Test the application on Kubernetes</p>
+<p>Java 11 to LTS version new features</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="backstage.html">Backstage</a></span>
-  <span class="next"><a href="openshift-data-science-object-detection.html">Object Detection</a></span>
+  <span class="prev"><a href="linux.html">Linux</a></span>
+  <span class="next"><a href="ansible.html">Ansible</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
