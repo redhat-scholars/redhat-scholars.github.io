@@ -1,0 +1,30 @@
+= Updating to Latest Java LTS Version
+include::_attributes.adoc[]
+
+Learn what's new in the Java language  since Java 11.+
+ +
+
+image::duke.png[Duke logo,100,float="right"]
+
+*Slides*: link:https://docs.google.com/presentation/d/17QLKGKBpyuNC-stgD0QxRw2oBa4MsNUI5IM0wZHra10/edit?usp=sharing[dn.dev/java-migration,window=_blank]
+
+*Tutorial*: link:https://redhat-scholars.github.io/java-migration/[dn.dev/java-migration-tutorial,window=_blank]
+
+[#one]
+== Java Migration Path
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers
+|Beginner
+|===
+
+Java is one of the most popular languages . In the past there was a new Java version every 2 or 3 years. Since 2017, Java has changed the release process, so now, we've got a new version every 6 months, being some of them LTS. Keeping the pace of the new features might be hard. In this deep dive we summarize from Java 11 the best features added to the platform, focusing on developers. +
+ +
+
+What you will learn:
+
+* Java Release Cadence
+* Java 11 to LTS version new features

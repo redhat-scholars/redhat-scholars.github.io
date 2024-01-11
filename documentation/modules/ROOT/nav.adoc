@@ -1,5 +1,8 @@
 * xref:linux.adoc[Linux]
 
+* xref:java.adoc[Java]
+** xref:java.adoc#one[Java Migration Path]
+
 * xref:ansible.adoc[Ansible]
 
 * xref:containers.adoc[Containers]
