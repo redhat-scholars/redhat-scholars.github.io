@@ -9,6 +9,8 @@
 ** xref:containers.adoc#one[Containers I]
 ** xref:containers.adoc#two[Containers II]
 
+* xref:podman-desktop.adoc[Podman Desktop]
+
 * xref:kubernetes.adoc[Kubernetes]
 ** xref:kubernetes.adoc#one[Kubernetes I]
 ** xref:kubernetes.adoc#two[Kubernetes II]
