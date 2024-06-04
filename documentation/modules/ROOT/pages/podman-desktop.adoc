@@ -1,0 +1,62 @@
+= Podman Desktop Deep Dive
+include::_attributes.adoc[]
+
+Learn the fundamentals of link:https://podman-desktop.io/[Podman Desktop,window=_blank] and elevate your container development workflows in this comprehensive deep dive module. +
+ +
+
+image::podman-desktop-logo.png[Podman Desktop logo,100,float="right"]
+
+*Tutorial*: link:https://dn.dev/podman-desktop-tutorial[dn.dev/podman-desktop-tutorial,window=_blank]
+
+*Slides*: link:https://dn.dev/podman-desktop-slides[dn.dev/podman-desktop-slides,window=_blank]
+
+
+[#one]
+== Podman Desktop Fundamentals
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers and Linux administrators
+|Beginner to Advanced
+|===
+
+As a developer, you face the challenge of ensuring your application works consistently across different environments - from your local development setup to the standardized production infrastructure. Containers provide a solution to this problem, allowing you to package your application with its dependencies and configurations. Podman Desktop takes it a step further by providing a user-friendly interface for managing containers, pods, and Kubernetes deployments. +
+ +
+
+image::podman-desktop-overview.png["Podman Desktop Overview"]
+
+In this deep dive, you will learn the following and more!
+
+* Introduction to containers and Podman Desktop essentials
+* Building and managing container images
+* Running and interacting with containers
+* Working with pods for multi-container applications
+* Deploying to local and remote Kubernetes environments
+
+// [#two]
+// == Working with Podman Desktop
+
+// * Building container images using Dockerfiles
+// * Managing container lifecycles (start, stop, delete)
+// * Configuring container networking and storage
+// * Creating and managing pods for multi-container applications
+// * Troubleshooting common issues
+
+// [#three]
+// == Targeting Kubernetes with Podman Desktop
+
+// * Overview of Kubernetes concepts
+// * Setting up local Kubernetes environments (Kind, Minikube)
+// * Deploying containers and pods to Kubernetes
+// * Monitoring and managing Kubernetes resources
+// * Integrating with remote Kubernetes clusters
+
+// [#resources]
+// == Resources
+
+// * link:https://podman-desktop.io/docs/[Podman Desktop Documentation,window=_blank]
+// * link:https://dn.dev/podman-desktop-tutorial[Podman Desktop Tutorial,window=_blank]
+
+// This updated version focuses on Podman Desktop and its capabilities for simplifying container development and deployment. It covers the fundamentals of Podman Desktop, working with containers and pods, and targeting Kubernetes environments. The tutorial and slides links are placeholders and should be replaced with the actual URLs once available.
