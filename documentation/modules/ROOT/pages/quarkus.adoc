@@ -93,3 +93,32 @@ What you will learn:
 * Developing Event-driven architectures
 * Integrating Quarkus with Kafka
 
+[#four]
+== Quarkus IV
+
+*Tutorial*: link:https://dn.dev/quarkus-tutorial[dn.dev/quarkus-tutorial]
+
+*Slides*: link:https://dn.dev/quarkusmaster[dn.dev/quarkusmaster]
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For developers and hands-on architects
+|Intermediate
+|===
+
+Generative AI has taken the world by storm over the last year, and it seems like every executive leader out there is telling us “regular” Java application developers to “add AI” to our applications. Does that mean we need to drop everything we’ve built and become data scientists instead now?
+Fortunately, we can actually infuse AI models built by actual AI experts into our applications in a fairly straightforward way thanks to some new projects out there. We promise it’s actually not as complicated as you might think! Thanks to the ease of use and superb developer experience of Quarkus, and the nice AI integration capabilities that the LangChain4j libraries offer, it becomes trivial to start working with AI and make your stakeholders happy.
+Come to this session to learn how to infuse AI models into your Java applications. 
+
+
+image::quarkus2.png["Quarkus III"]
+
+
+What you will learn:
+
+* Add AI services to your Quarkus applications
+* Call functions from AI model responses and integrate with websockets
+* Work locally with AI Models 
+
