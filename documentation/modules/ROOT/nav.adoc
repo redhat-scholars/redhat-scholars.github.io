@@ -1,3 +1,108 @@
+* Journeys
+** Linux
+
+*** xref:linux.adoc[Linux]
+
+*** xref:containers.adoc[Containers]
+**** xref:containers.adoc#one[Containers I]
+**** xref:containers.adoc#two[Containers II]
+
+*** xref:podman-desktop.adoc[Podman Desktop]
+*** xref:build-container-podman.adoc[Build a Container - Podman]
+
+** Kubernetes
+
+*** xref:kubernetes.adoc[Kubernetes]
+**** xref:kubernetes.adoc#one[Kubernetes I]
+**** xref:kubernetes.adoc#two[Kubernetes II]
+**** xref:kubernetes.adoc#three[Kubernetes III]
+
+*** xref:backstage.adoc[Backstage]
+*** xref:skupper.adoc[Skupper]
+*** xref:istio.adoc[Istio]
+*** xref:knative.adoc[Knative]
+*** xref:tekton.adoc[Tekton]
+*** xref:argocd.adoc[Argo CD]
+*** xref:helm.adoc[Helm]
+
+*** xref:operators.adoc[Kubernetes Operators]
+**** xref:operators.adoc#one[Kubernetes Operators I]
+**** xref:operators.adoc#two[Kubernetes Operators II]
+
+** Java
+
+*** xref:java.adoc[Java]
+**** xref:java.adoc#one[Java Migration Path]
+
+*** xref:kafka.adoc[Kafka]
+
+*** xref:quarkus.adoc[Quarkus]
+**** xref:quarkus.adoc#one[Quarkus I]
+**** xref:quarkus.adoc#two[Quarkus II]
+**** xref:quarkus.adoc#three[Quarkus III]
+**** xref:quarkus.adoc#four[Quarkus IV]
+
+*** xref:springboot.adoc[Spring Boot on Kubernetes]
+
+** Event-Driven
+
+*** xref:quarkus.adoc[Quarkus]
+**** xref:quarkus.adoc#one[Quarkus I]
+**** xref:quarkus.adoc#two[Quarkus II]
+**** xref:quarkus.adoc#three[Quarkus III]
+**** xref:quarkus.adoc#four[Quarkus IV]
+
+*** xref:kafka.adoc[Kafka]
+
+*** xref:debezium.adoc[Debezium]
+**** xref:debezium.adoc#one[Debezium I]
+
+** CI/CD
+
+*** xref:kubernetes.adoc[Kubernetes]
+**** xref:kubernetes.adoc#one[Kubernetes I]
+**** xref:kubernetes.adoc#two[Kubernetes II]
+
+*** xref:tekton.adoc[Tekton]
+*** xref:argocd.adoc[Argo CD]
+*** xref:helm.adoc[Helm]
+
+*** xref:ansible.adoc[Ansible]
+
+** AI
+
+*** xref:quarkus.adoc[Quarkus]
+**** xref:quarkus.adoc#one[Quarkus I]
+**** xref:quarkus.adoc#four[Quarkus IV]
+
+*** xref:podman-desktop.adoc[Podman Desktop]
+
+** OpenShift
+
+*** xref:kubernetes.adoc[Kubernetes]
+**** xref:kubernetes.adoc#one[Kubernetes I]
+**** xref:kubernetes.adoc#two[Kubernetes II]
+**** xref:kubernetes.adoc#three[Kubernetes III]
+
+**** xref:openshift.adoc[OpenShift for Developers]
+**** link:https://redhat-scholars.github.io/inner-loop-guide/[OpenShift Inner Loop]
+**** link:https://redhat-scholars.github.io/outer-loop-guide/[OpenShift Outer Loop]
+**** xref:openshift-java-inner-loop.adoc[OpenShift Java Inner Loop Workshop]
+**** xref:openshift-efficient-resource-management.adoc[Efficient Resource Management with OpenShift]
+**** xref:openshift-database-access-operator.adoc[Connecting Applications to DBaaS using RHODA]
+
+*** xref:backstage.adoc[Backstage]
+*** xref:openshift-serverless-logic.adoc[OpenShift Serverless Logic]
+
+*** OpenShift Data Science
+**** xref:openshift-data-science-lp-recognition.adoc[Licence plate recognition]
+**** xref:openshift-data-science-object-detection.adoc[Object Detection]
+
+*** Red Hat Advanced Cluster Security (Stackrox)
+**** xref:stackrox-acs.adoc[Red Hat Advanced Cluster Security (Stackrox)]
+
+*** OpenShift Data Science
+
 * All Deep Dives
 ** xref:linux.adoc[Linux]
 
