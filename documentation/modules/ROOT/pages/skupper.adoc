@@ -4,7 +4,7 @@ include::_attributes.adoc[]
 Learn the basics of link:https://skupper.io/[Skupper,window=_blank] as well as the more advanced principles in one module of 1 hour. +
  +
 
-image::ansiblelogo.png[Ansible logo,100,float="right"]
+image::skupper.png[Skupper logo,100,float="right"]
 
 *Tutorial*: link:https://redhat-scholars.github.io/skupper-tutorial/skupper-tutorial[dn.dev/skupper-tutorial]
 
@@ -36,5 +36,5 @@ What you will learn:
 * How Skupper works
 * Installing Skupper to a Kubernetes cluster
 * Using Skupper to access private clusters
-* Using Skupper to replicate services across diferent clouds
+* Using Skupper to replicate services across different clouds
 * Installing Skupper with Ansible
