@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cloud Native Business Automation (Kogito) :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/kogito.html">
+    <title>Skupper :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/skupper.html">
+    <link rel="prev" href="quarkus.html">
+    <link rel="next" href="springboot.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -148,7 +150,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="1">
+  <li class="nav-item is-current-page" data-depth="1">
     <a class="nav-link" href="skupper.html">Skupper</a>
   </li>
   <li class="nav-item" data-depth="1">
@@ -223,32 +225,35 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="kogito.html">Cloud Native Business Automation (Kogito)</a></li>
+    <li><a href="skupper.html">Skupper</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/kogito.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/skupper.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Cloud Native Business Automation (Kogito)</h1>
+<h1 class="page">Skupper</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of <a href="https://kogito.kie.org/" target="_blank" rel="noopener">Kogito</a> on Kubernetes as well as the more advanced principles in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://skupper.io/" target="_blank" rel="noopener">Skupper</a> as well as the more advanced principles in one module of 1 hour.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="https://redhat-scholars.github.io/cloud-native-business-automation/cnba-tutorial/_images/logo.png" alt="kogito logo" width="100">
+<img src="_images/ansiblelogo.png" alt="Ansible logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/cloud-native-business-automation/" target="_blank" rel="noopener">https://redhat-scholars.github.io/cloud-native-business-automation/</a></p>
+<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/skupper-tutorial/skupper-tutorial">dn.dev/skupper-tutorial</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://docs.google.com/presentation/d/1Jh59xi3WFX_sOvFo8YAzafsjkF6bsROIUyghWsiYTSk/">dn.dev/skupper</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Cloud Native Business Automation (Kogito)</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>Skupper</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -264,15 +269,25 @@
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers and hands-on architects</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">For Operators/DevOps</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Intermediate</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Kogito is a recent initiative under the KIE umbrella to leverage the battle-tested project Drools, jBPM, and OptaPlanner into a Cloud Native Environment.<br>
-It is designed from ground up to run at scale on cloud infrastructure. If you think about business automation think about the cloud as this is where your business logic lives these days. By taking advantage of the latest technologies (Quarkus, KNative, etc.), you get amazingly fast boot times and instant scaling on orchestration platforms like OpenShift.n <br>
+<p>In today&#8217;s dynamic business landscape, change and the adoption of Hybrid Cloud solutions are inevitable. As companies strive for success, their workloads span diverse landscapes, including public cloud providers and on-premises servers. To thrive in this ever-evolving environment, harnessing the power of open-source technologies becomes imperative.</p>
+</div>
+<div class="paragraph">
+<p>Join us in this enlightening session to discover how cutting-edge tools such as Kubernetes, Knative, and Skupper can tip the scales in your favor. We&#8217;ll unveil the transformative capabilities of these technologies and demonstrate how they can empower your organization to achieve crucial objectives such as cost management, failover preparedness, resiliency, and more.</p>
+</div>
+<div class="paragraph">
+<p>In an era where agility, efficiency, and resilience are paramount, this session will equip you with the insights and tools needed to successfully navigate the Hybrid Cloud&#8217;s complexities. Don&#8217;t miss this opportunity to unlock the full potential of your cloud strategy and drive your company&#8217;s success to new heights.+
 <br></p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/skupper.png" alt="skupper">
+</div>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
@@ -280,24 +295,31 @@ It is designed from ground up to run at scale on cloud infrastructure. If you th
 <div class="ulist">
 <ul>
 <li>
-<p>DMN and Business Automation concepts</p>
+<p>What is Skupper?</p>
 </li>
 <li>
-<p>Build Decision Service</p>
+<p>How Skupper works</p>
 </li>
 <li>
-<p>Event Driven Decision Services</p>
+<p>Installing Skupper to a Kubernetes cluster</p>
 </li>
 <li>
-<p>Kogito and Quarkus</p>
+<p>Using Skupper to access private clusters</p>
 </li>
 <li>
-<p>Get started with business rules (DRL)</p>
+<p>Using Skupper to replicate services across diferent clouds</p>
+</li>
+<li>
+<p>Installing Skupper with Ansible</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
+<nav class="pagination">
+  <span class="prev"><a href="quarkus.html">Quarkus</a></span>
+  <span class="next"><a href="springboot.html">Spring Boot on Kubernetes</a></span>
+</nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
