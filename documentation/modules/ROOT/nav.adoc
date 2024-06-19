@@ -40,6 +40,8 @@
 ** xref:quarkus.adoc#two[Quarkus II]
 ** xref:quarkus.adoc#three[Quarkus III]
 
+* xref:skupper.adoc[Skupper]
+
 * xref:springboot.adoc[Spring Boot on Kubernetes]
 
 * xref:openshift-serverless-logic.adoc[OpenShift Serverless Logic]

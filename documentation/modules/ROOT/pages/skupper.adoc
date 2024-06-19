@@ -1,0 +1,40 @@
+= Skupper
+include::_attributes.adoc[]
+
+Learn the basics of link:https://skupper.io/[Skupper,window=_blank] as well as the more advanced principles in one module of 1 hour. +
+ +
+
+image::ansiblelogo.png[Ansible logo,100,float="right"]
+
+*Tutorial*: link:https://redhat-scholars.github.io/skupper-tutorial/skupper-tutorial[dn.dev/skupper-tutorial]
+
+*Slides*: link:https://docs.google.com/presentation/d/1Jh59xi3WFX_sOvFo8YAzafsjkF6bsROIUyghWsiYTSk/[dn.dev/skupper]
+
+[#one]
+== Skupper
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|For Operators/DevOps
+|Intermediate
+|===
+
+In today's dynamic business landscape, change and the adoption of Hybrid Cloud solutions are inevitable. As companies strive for success, their workloads span diverse landscapes, including public cloud providers and on-premises servers. To thrive in this ever-evolving environment, harnessing the power of open-source technologies becomes imperative.
+
+Join us in this enlightening session to discover how cutting-edge tools such as Kubernetes, Knative, and Skupper can tip the scales in your favor. We'll unveil the transformative capabilities of these technologies and demonstrate how they can empower your organization to achieve crucial objectives such as cost management, failover preparedness, resiliency, and more.
+
+In an era where agility, efficiency, and resilience are paramount, this session will equip you with the insights and tools needed to successfully navigate the Hybrid Cloud's complexities. Don't miss this opportunity to unlock the full potential of your cloud strategy and drive your company's success to new heights.+
+ +
+
+image::skupper.png[]
+
+What you will learn:
+
+* What is Skupper?
+* How Skupper works
+* Installing Skupper to a Kubernetes cluster
+* Using Skupper to access private clusters
+* Using Skupper to replicate services across diferent clouds
+* Installing Skupper with Ansible
