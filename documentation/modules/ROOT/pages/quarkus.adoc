@@ -98,7 +98,7 @@ What you will learn:
 
 *Tutorial*: link:https://dn.dev/quarkus-tutorial[dn.dev/quarkus-tutorial]
 
-*Slides*: link:https://dn.dev/quarkusmaster[dn.dev/quarkusmaster]
+*Slides*: link:https://dn.dev/quarkus4-workshop[dn.dev/quarkus4-workshop]
 
 [cols="1,3,2"]  
 |===
