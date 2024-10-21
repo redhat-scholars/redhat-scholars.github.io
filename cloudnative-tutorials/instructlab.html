@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>OpenShift Serverless Logic :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/openshift-serverless-logic.html">
-    <link rel="prev" href="backstage.html">
-    <link rel="next" href="openshift-data-science-lp-recognition.html">
+    <title>InstructLab :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/instructlab.html">
+    <link rel="prev" href="quarkus.html">
+    <link rel="next" href="podman-desktop.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -257,7 +257,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="3">
+  <li class="nav-item is-current-page" data-depth="3">
     <a class="nav-link" href="instructlab.html">InstructLab</a>
   </li>
   <li class="nav-item" data-depth="3">
@@ -305,7 +305,7 @@
   <li class="nav-item" data-depth="3">
     <a class="nav-link" href="backstage.html">Backstage</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="3">
+  <li class="nav-item" data-depth="3">
     <a class="nav-link" href="openshift-serverless-logic.html">OpenShift Serverless Logic</a>
   </li>
   <li class="nav-item" data-depth="3">
@@ -367,7 +367,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="instructlab.html">InstructLab</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -448,7 +448,7 @@
   <li class="nav-item" data-depth="2">
     <a class="nav-link" href="springboot.html">Spring Boot on Kubernetes</a>
   </li>
-  <li class="nav-item is-current-page" data-depth="2">
+  <li class="nav-item" data-depth="2">
     <a class="nav-link" href="openshift-serverless-logic.html">OpenShift Serverless Logic</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -520,32 +520,36 @@
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
     <li>Journeys</li>
-    <li>OpenShift</li>
-    <li><a href="openshift-serverless-logic.html">OpenShift Serverless Logic</a></li>
+    <li>AI</li>
+    <li><a href="instructlab.html">InstructLab</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/openshift-serverless-logic.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/instructlab.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">OpenShift Serverless Logic</h1>
+<h1 class="page">InstructLab</h1>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Learn the basics of OpenShift Serverless Logic.</p>
+<p>Learn what&#8217;s InstructLab and why it is important if you are embracing AI.+
+<br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="https://redhat-scholars.github.io/serverless-workflow/osl/_images/serverless.png" alt="serverless logo" width="100">
+<img src="_images/instructlab.png" alt="InstructLab logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/serverless-workflow" target="_blank" rel="noopener">https://redhat-scholars.github.io/serverless-workflow</a></p>
+<p><strong>Slides</strong>: <a href="https://docs.google.com/presentation/d/1oVkO-oXsOspB1gpLzDdMMTYcLIRQ9Dg1lNr7dAk6k2k" target="_blank" rel="noopener">dn.dev/instructlab</a></p>
+</div>
+<div class="paragraph">
+<p><strong>Tutorial</strong>: <a href="https://github.com/redhat-scholars/instructlab-deep-dive/" target="_blank" rel="noopener">dn.dev/instructlab-tutorial</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>OpenShift Serverless Logic Tutorial</h2>
+<h2 id="one"><a class="anchor" href="#one"></a>InstructLab</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -560,17 +564,15 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2 hours</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Developers, Data Scientists</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless">OpenShift Serverless</a> means focusing on the business logic regarderless of servers!</p>
-</div>
-<div class="paragraph">
-<p><a href="https://openshift-knative.github.io/docs/docs/latest/index.html">OpenShift Serverless Logic</a> is in a Developer Preview phase. One of the first capabilities that will be released is the <strong>workflow engine</strong> which helps developers to tackle complex microservices orchestration problems.</p>
+<p>The rise of large language models (LLMs) has opened up exciting possibilities for developers looking to build intelligent applications. However, the process of adapting these models to specific use cases can be difficult, requiring deep expertise and substantial resources. In this talk, we&#8217;ll introduce you to InstructLab, an open-source project that aims to make LLM tuning accessible to developers and data scientists of all skill levels, on consumer-grade hardware. We&#8217;ll explore how InstructLab&#8217;s innovative approach combines collaborative knowledge curation, efficient data generation, and instruction training to enable developers to refine foundation models for specific use cases. Through a live demonstration, you’ll learn how IBM Research has partnered with Red Hat to simplify the process of enhancing LLMs with new knowledge and skills for targeted applications. Join us to explore how InstructLab is empowering developers to harness the power of AI in their projects.<br>
+<br></p>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
@@ -578,24 +580,21 @@
 <div class="ulist">
 <ul>
 <li>
-<p>MicroServices Orchestration</p>
+<p>What is InstructLab</p>
 </li>
 <li>
-<p>Serverless Workflow</p>
+<p>Why it is important fine-tunig models</p>
 </li>
 <li>
-<p>CloudEvents</p>
-</li>
-<li>
-<p>Develop workflows leveraging Quarkus</p>
+<p>RAG vs Fine-Tuning</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="backstage.html">Backstage</a></span>
-  <span class="next"><a href="openshift-data-science-lp-recognition.html">Licence plate recognition</a></span>
+  <span class="prev"><a href="quarkus.html">Quarkus</a></span>
+  <span class="next"><a href="podman-desktop.html">Podman Desktop</a></span>
 </nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
