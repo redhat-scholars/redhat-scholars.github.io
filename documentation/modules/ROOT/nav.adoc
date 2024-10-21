@@ -75,6 +75,7 @@
 **** xref:quarkus.adoc#one[Quarkus I]
 **** xref:quarkus.adoc#four[Quarkus IV]
 
+*** xref:instructlab.adoc[InstructLab]
 *** xref:podman-desktop.adoc[Podman Desktop]
 
 ** OpenShift
@@ -115,6 +116,7 @@
 *** xref:containers.adoc#one[Containers I]
 *** xref:containers.adoc#two[Containers II]
 
+** xref:instructlab.adoc[InstructLab]
 ** xref:podman-desktop.adoc[Podman Desktop]
 
 ** xref:kubernetes.adoc[Kubernetes]

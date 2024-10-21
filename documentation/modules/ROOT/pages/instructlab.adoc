@@ -1,0 +1,31 @@
+= InstructLab
+include::_attributes.adoc[]
+
+Learn what's InstructLab and why it is important if you are embracing AI.+
+ +
+
+image::instructlab.png[InstructLab logo,100,float="right"]
+
+*Slides*: link:https://docs.google.com/presentation/d/1oVkO-oXsOspB1gpLzDdMMTYcLIRQ9Dg1lNr7dAk6k2k[dn.dev/instructlab,window=_blank]
+
+*Tutorial*: link:https://github.com/redhat-scholars/instructlab-deep-dive/[dn.dev/instructlab-tutorial,window=_blank]
+
+[#one]
+== InstructLab
+
+[cols="1,3,2"]  
+|===
+| *Duration* | *Audience* | *Level*
+|1 hour
+|Developers, Data Scientists
+|Beginner
+|===
+
+The rise of large language models (LLMs) has opened up exciting possibilities for developers looking to build intelligent applications. However, the process of adapting these models to specific use cases can be difficult, requiring deep expertise and substantial resources. In this talk, we'll introduce you to InstructLab, an open-source project that aims to make LLM tuning accessible to developers and data scientists of all skill levels, on consumer-grade hardware. We'll explore how InstructLab's innovative approach combines collaborative knowledge curation, efficient data generation, and instruction training to enable developers to refine foundation models for specific use cases. Through a live demonstration, you’ll learn how IBM Research has partnered with Red Hat to simplify the process of enhancing LLMs with new knowledge and skills for targeted applications. Join us to explore how InstructLab is empowering developers to harness the power of AI in their projects. +
+ +
+
+What you will learn:
+
+* What is InstructLab
+* Why it is important fine-tunig models
+* RAG vs Fine-Tuning
