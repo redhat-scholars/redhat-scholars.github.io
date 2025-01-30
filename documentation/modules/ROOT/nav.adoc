@@ -42,6 +42,8 @@
 **** xref:quarkus.adoc#three[Quarkus III]
 **** xref:quarkus.adoc#four[Quarkus IV]
 
+*** xref:quarkus-sandbox.adoc[Quarkus-Developer Sandbox]
+
 *** xref:springboot.adoc[Spring Boot on Kubernetes]
 
 ** Event-Driven
@@ -147,6 +149,8 @@
 *** xref:quarkus.adoc#one[Quarkus I]
 *** xref:quarkus.adoc#two[Quarkus II]
 *** xref:quarkus.adoc#three[Quarkus III]
+
+** xref:quarkus-sandbox.adoc[Quarkus - Developer Sandbox]
 
 ** xref:skupper.adoc[Skupper]
 
