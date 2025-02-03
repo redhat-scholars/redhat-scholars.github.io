@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Cloud Native Business Automation (Kogito) :: Cloud Native Tutorials</title>
-    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/kogito.html">
+    <title>Quarkus in the Developer Sandbox :: Cloud Native Tutorials</title>
+    <link rel="canonical" href="https://redhat-scholars.github.io/cloudnative-tutorials/quarkus-sandbox.html">
+    <link rel="prev" href="quarkus.html">
+    <link rel="next" href="springboot.html">
     <meta name="generator" content="Antora 3.0.0">
     <link rel="stylesheet" href="../_/css/site.css">
   </head>
@@ -168,7 +170,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="3">
+  <li class="nav-item is-current-page" data-depth="3">
     <a class="nav-link" href="quarkus-sandbox.html">Quarkus-Developer Sandbox</a>
   </li>
   <li class="nav-item" data-depth="3">
@@ -443,7 +445,7 @@
   </li>
 </ul>
   </li>
-  <li class="nav-item" data-depth="2">
+  <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="quarkus-sandbox.html">Quarkus - Developer Sandbox</a>
   </li>
   <li class="nav-item" data-depth="2">
@@ -523,33 +525,31 @@
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ul>
     <li><a href="index.html">Cloud Native Tutorials</a></li>
-    <li><a href="kogito.html">Cloud Native Business Automation (Kogito)</a></li>
+    <li>Journeys</li>
+    <li>Java</li>
+    <li><a href="quarkus-sandbox.html">Quarkus-Developer Sandbox</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/kogito.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/redhat-scholars/redhat-scholars.github.io/edit/master/documentation/modules/ROOT/pages/quarkus-sandbox.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
-<h1 class="page">Cloud Native Business Automation (Kogito)</h1>
-<div id="preamble">
-<div class="sectionbody">
+<h1 class="page">Quarkus in the Developer Sandbox</h1>
 <div class="paragraph">
-<p>Learn the basics of <a href="https://kogito.kie.org/" target="_blank" rel="noopener">Kogito</a> on Kubernetes as well as the more advanced principles in one module of 1 hour.<br>
+<p>Learn the basics of <a href="https://quarkus.io" target="_blank" rel="noopener">Quarkus</a> as well as dive into the ecosystem of the framework. Including deploying and managing Quarkus applications on Kubernetes.<br>
 <br></p>
 </div>
 <div class="imageblock right">
 <div class="content">
-<img src="https://redhat-scholars.github.io/cloud-native-business-automation/cnba-tutorial/_images/logo.png" alt="kogito logo" width="100">
+<img src="_images/quarkuslogo.png" alt="Quarkus logo" width="100">
 </div>
 </div>
 <div class="paragraph">
-<p><strong>Tutorial</strong>: <a href="https://redhat-scholars.github.io/cloud-native-business-automation/" target="_blank" rel="noopener">https://redhat-scholars.github.io/cloud-native-business-automation/</a></p>
+<p><strong>Tutorial</strong>: <a href="https://red.ht/quarkus-sandbox-tutorial">red.ht/quarkus-sandbox-tutorial</a></p>
 </div>
+<div class="paragraph">
+<p><strong>Slides</strong>: <a href="https://red.ht/quarkus-sandbox">red.ht/quarkus-sandbox</a></p>
 </div>
-</div>
-<div class="sect1">
-<h2 id="one"><a class="anchor" href="#one"></a>Cloud Native Business Automation (Kogito)</h2>
-<div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 16.6666%;">
@@ -563,16 +563,26 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Level</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 hour</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Java developers and hands-on architects</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">~4 hours</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Spring, Java EE, and Enterprise Java developers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Beginner</p></td>
 </tr>
 </tbody>
 </table>
 <div class="paragraph">
-<p>Kogito is a recent initiative under the KIE umbrella to leverage the battle-tested project Drools, jBPM, and OptaPlanner into a Cloud Native Environment.<br>
-It is designed from ground up to run at scale on cloud infrastructure. If you think about business automation think about the cloud as this is where your business logic lives these days. By taking advantage of the latest technologies (Quarkus, KNative, etc.), you get amazingly fast boot times and instant scaling on orchestration platforms like OpenShift.n <br>
-<br></p>
+<p>Is your Java app consuming the server’s whole memory and taking minutes to boot? And then, even more time to redeploy? Get rid of your old Java applications and learn Quarkus, the supersonic, subatomic Java.
+This workshop is intended to give you a hands on introduction to using Quarkus for building applications. You run it on your own following the step-by-step guide and using a shared cluster.</p>
+</div>
+<div class="paragraph">
+<p>The workshop uses the Developer Sandbox and OpenShift DevSpaces, Dev Spaces is a Cloud Development Environment(CDE), to develop Quarkus apps and deploy them to a Kubernetes cluster (OpenShift)</p>
+</div>
+<div class="paragraph">
+<p>In this workshop you learn how Java apps can have small memory footprints and really fast startup times - milliseconds fast. With Quarkus you also get instantaneous save/refresh coding sessions, continous testing and overall developer joy!</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/quarkussandbox.png" alt="Quarkus Sandbox">
+</div>
 </div>
 <div class="paragraph">
 <p>What you will learn:</p>
@@ -580,24 +590,50 @@ It is designed from ground up to run at scale on cloud infrastructure. If you th
 <div class="ulist">
 <ul>
 <li>
-<p>DMN and Business Automation concepts</p>
+<p>Dependency Injection</p>
 </li>
 <li>
-<p>Build Decision Service</p>
+<p>Testing Quarkus Apps</p>
 </li>
 <li>
-<p>Event Driven Decision Services</p>
+<p>Debugging Quarkus Apps</p>
 </li>
 <li>
-<p>Kogito and Quarkus</p>
+<p>Building Native Quarkus Apps</p>
 </li>
 <li>
-<p>Get started with business rules (DRL)</p>
+<p>Developing Cloud Native with Quarkus</p>
+</li>
+<li>
+<p>Deploying to the cloud</p>
+</li>
+<li>
+<p>Using Quarkus extensions</p>
+</li>
+<li>
+<p>Hibernate ORM with Panache</p>
+</li>
+<li>
+<p>Documenting and Testing APIs</p>
+</li>
+<li>
+<p>Event-driven Messaging</p>
+</li>
+<li>
+<p>Streaming Data with Quarkus and Kafka</p>
+</li>
+<li>
+<p>Monitoring with Prometheus and Grafana</p>
+</li>
+<li>
+<p>Tracing Quarkus Apps with Jaeger and OpenTelemetry</p>
 </li>
 </ul>
 </div>
-</div>
-</div>
+<nav class="pagination">
+  <span class="prev"><a href="quarkus.html">Quarkus</a></span>
+  <span class="next"><a href="springboot.html">Spring Boot on Kubernetes</a></span>
+</nav>
 </article>
 <aside class="toc sidebar" data-title="Contents" data-levels="2">
   <div class="toc-menu"></div>
